@@ -49,18 +49,18 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mo
 <path d="M84 236 H268 M176 144 V328"/></g>
 <g class="sw"><path d="M176 236 L176 144 A92 92 0 0 0 136.1 153.1 Z" style="fill:var(--ink)" opacity=".07"/>
 <path class="ln" stroke-width="1" d="M176 236 V144"/></g>
-<g class="sh0"><circle class="ink" cx="189.5" cy="212.7" r="2.8"/>
-<text class="mu" x="196.5" y="216.7" font-size="10">smart-contract-lottery</text></g><g class="sh1"><circle class="ink" cx="203.0" cy="239.3" r="2.8"/>
-<text class="mu" x="210.0" y="243.3" font-size="10">wave-play</text></g><g class="sh2"><circle class="ink" cx="183.5" cy="262.3" r="2.8"/>
-<text class="mu" x="190.5" y="266.3" font-size="10">transaction-queue</text></g><g class="sh3"><circle class="ink" cx="153.3" cy="254.4" r="2.7"/>
-<text class="mu" x="146.3" y="258.4" font-size="10" text-anchor="end">foundry-nft</text></g><g class="sh4"><circle class="ink" cx="133.5" cy="213.4" r="2.3"/>
-<text class="mu" x="126.5" y="217.4" font-size="10" text-anchor="end">generative-musi…</text></g>
+<g class="sh0"><circle class="ink" cx="191.0" cy="210.1" r="2.7"/>
+<text class="mu" x="198.0" y="214.1" font-size="10">smart-contract-lotte…</text></g><g class="sh1"><circle class="ink" cx="205.9" cy="239.7" r="2.7"/>
+<text class="mu" x="212.9" y="243.7" font-size="10">wave-play</text></g><g class="sh2"><circle class="ink" cx="184.3" cy="265.0" r="2.7"/>
+<text class="mu" x="191.3" y="269.0" font-size="10">transaction-queue</text></g><g class="sh3"><circle class="ink" cx="151.5" cy="255.8" r="2.7"/>
+<text class="mu" x="144.5" y="259.8" font-size="10" text-anchor="end">foundry-nft</text></g><g class="sh4"><circle class="ink" cx="133.3" cy="213.3" r="2.3"/>
+<text class="mu" x="126.3" y="217.3" font-size="10" text-anchor="end">generative-musi…</text></g>
 <circle class="ink" cx="176" cy="236" r="2"/>
 <g class="lg sa0"><text class="mu" x="372" y="72" font-size="12">[00:00:01]</text><text class="ink" x="476" y="72" font-size="12">boot</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M512.8 68 H775.6"/>
 <text class="ink" x="800" y="72" font-size="12" text-anchor="end">ok</text></g><g class="lg sa1"><text class="mu" x="372" y="91" font-size="12">[00:00:02]</text><text class="ink" x="476" y="91" font-size="12">commits / yr</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M570.4 87 H768.4"/>
-<text class="ink" x="800" y="91" font-size="12" text-anchor="end">880</text></g><g class="lg sa2"><text class="mu" x="372" y="110" font-size="12">[00:00:03]</text><text class="ink" x="476" y="110" font-size="12">pull requests</text>
+<text class="ink" x="800" y="91" font-size="12" text-anchor="end">881</text></g><g class="lg sa2"><text class="mu" x="372" y="110" font-size="12">[00:00:03]</text><text class="ink" x="476" y="110" font-size="12">pull requests</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M577.6 106 H782.8"/>
 <text class="ink" x="800" y="110" font-size="12" text-anchor="end">0</text></g><g class="lg sa3"><text class="mu" x="372" y="129" font-size="12">[00:00:04]</text><text class="ink" x="476" y="129" font-size="12">public repos</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M570.4 125 H775.6"/>
@@ -83,17 +83,17 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mo
 <text class="ink" x="800" y="281" font-size="12" text-anchor="end">1.5%</text></g><g class="lg sa12"><text class="mu" x="372" y="300" font-size="12">[00:00:13]</text><g class="sh0"><circle class="ink" cx="466" cy="296" r="2"/></g>
 <text class="ink" x="476" y="300" font-size="12">smart-contract-lottery</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M642.4 296 H746.8"/>
-<text class="ink" x="800" y="300" font-size="12" text-anchor="end">3h ago</text></g><g class="lg sa13"><text class="mu" x="372" y="319" font-size="12">[00:00:14]</text><g class="sh1"><circle class="ink" cx="466" cy="315" r="2"/></g>
+<text class="ink" x="800" y="300" font-size="12" text-anchor="end">6h ago</text></g><g class="lg sa13"><text class="mu" x="372" y="319" font-size="12">[00:00:14]</text><g class="sh1"><circle class="ink" cx="466" cy="315" r="2"/></g>
 <text class="ink" x="476" y="319" font-size="12">wave-play</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M548.8 315 H746.8"/>
-<text class="ink" x="800" y="319" font-size="12" text-anchor="end">3h ago</text></g><g class="lg sa14"><text class="mu" x="372" y="338" font-size="12">[00:00:15]</text><g class="sh2"><circle class="ink" cx="466" cy="334" r="2"/></g>
+<text class="ink" x="800" y="319" font-size="12" text-anchor="end">6h ago</text></g><g class="lg sa14"><text class="mu" x="372" y="338" font-size="12">[00:00:15]</text><g class="sh2"><circle class="ink" cx="466" cy="334" r="2"/></g>
 <text class="ink" x="476" y="338" font-size="12">transaction-queue</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M606.4 334 H746.8"/>
-<text class="ink" x="800" y="338" font-size="12" text-anchor="end">4h ago</text></g><g class="lg sa15"><text class="mu" x="372" y="357" font-size="12">[00:00:16]</text><g class="sh3"><circle class="ink" cx="466" cy="353" r="2"/></g>
+<text class="ink" x="800" y="338" font-size="12" text-anchor="end">6h ago</text></g><g class="lg sa15"><text class="mu" x="372" y="357" font-size="12">[00:00:16]</text><g class="sh3"><circle class="ink" cx="466" cy="353" r="2"/></g>
 <text class="ink" x="476" y="357" font-size="12">foundry-nft</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M563.2 353 H746.8"/>
-<text class="ink" x="800" y="357" font-size="12" text-anchor="end">5h ago</text></g><g class="lg sa16"><text class="mu" x="372" y="376" font-size="12">[00:00:17]</text><g class="sh4"><circle class="ink" cx="466" cy="372" r="2"/></g>
+<text class="ink" x="800" y="357" font-size="12" text-anchor="end">7h ago</text></g><g class="lg sa16"><text class="mu" x="372" y="376" font-size="12">[00:00:17]</text><g class="sh4"><circle class="ink" cx="466" cy="372" r="2"/></g>
 <text class="ink" x="476" y="376" font-size="12">generative-music-studio</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M649.6 372 H746.8"/>
-<text class="ink" x="800" y="376" font-size="12" text-anchor="end">3d ago</text></g><g class="lg sa17"><text class="mu" x="372" y="395" font-size="12">[00:00:18]</text><text class="ink" x="476" y="395" font-size="12">readout complete<tspan class="blink">_</tspan></text></g>
+<text class="ink" x="800" y="376" font-size="12" text-anchor="end">4d ago</text></g><g class="lg sa17"><text class="mu" x="372" y="395" font-size="12">[00:00:18]</text><text class="ink" x="476" y="395" font-size="12">readout complete<tspan class="blink">_</tspan></text></g>
 </svg>
