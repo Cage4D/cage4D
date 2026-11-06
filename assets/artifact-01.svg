@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 176" width="840" height="176" role="img" aria-label="generative-music-studio: a browser studio that turns a seed and a handful of settings into short loops (melody, arpeggio, bass, drums, pads, texture) you can shape, play back and share by link. no accounts, no presets. tweak and listen.">
+<style>
+svg{--ink:#1f2328;--mu:#8c959f;--ln:#57606a;--dim:#d0d7de}
+@media (prefers-color-scheme:dark){svg{--ink:#ededed;--mu:#6e7681;--ln:#c9d1d9;--dim:#30363d}}
+text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace}
+.ink{fill:var(--ink)}.mu{fill:var(--mu)}
+.ln{stroke:var(--ln);fill:none}.lm{stroke:var(--mu);fill:none}.ld{stroke:var(--dim);fill:none}
+.blink{animation:blink 1.1s steps(1) infinite}
+.pulse{animation:pulse 3.2s ease-in-out infinite}
+@keyframes blink{50%{opacity:0}}
+@keyframes pulse{50%{opacity:.25}}
+
+</style>
+<path class="lm" stroke-width="1" d="M14 26 V14 H26 M814 14 H826 V26 M14 150 V162 H26 M814 162 H826 V150"/>
+<text class="mu" x="40" y="40" font-size="12">artifact 01</text>
+<text class="ink" x="170" y="40" font-size="13">generative-music-studio</text>
+<text class="mu" x="800" y="40" font-size="12" text-anchor="end">stable <tspan class="pulse">●</tspan></text>
+<text class="mu" x="40" y="70" font-size="12">stack</text>
+<path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M84 66 H158"/><text class="ink" x="170" y="70" font-size="12">next.js · nestjs · prisma · postgresql · zod · tone.js</text><text class="mu" x="40" y="95" font-size="12">purpose</text>
+<path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M98.4 91 H158"/><text class="mu" x="170" y="95" font-size="12">a browser studio that turns a seed and a handful of settings into short loops</text><text class="mu" x="170" y="114" font-size="12">(melody, arpeggio, bass, drums, pads, texture) you can shape, play back and share by</text><text class="mu" x="170" y="133" font-size="12">link. no accounts, no presets. tweak and listen.</text><text class="mu" x="800" y="154" font-size="11" text-anchor="end">→ <tspan class="ink">source</tspan></text>
+</svg>

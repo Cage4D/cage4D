@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 280" width="840" height="280" role="img" aria-label="github stats for cage4D">
+<style>
+svg{--ink:#1f2328;--mu:#8c959f;--ln:#57606a;--dim:#d0d7de}
+@media (prefers-color-scheme:dark){svg{--ink:#ededed;--mu:#6e7681;--ln:#c9d1d9;--dim:#30363d}}
+text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace}
+.ink{fill:var(--ink)}.mu{fill:var(--mu)}
+.ln{stroke:var(--ln);fill:none}.lm{stroke:var(--mu);fill:none}.ld{stroke:var(--dim);fill:none}
+.blink{animation:blink 1.1s steps(1) infinite}
+.pulse{animation:pulse 3.2s ease-in-out infinite}
+@keyframes blink{50%{opacity:0}}
+@keyframes pulse{50%{opacity:.25}}
+.sw{transform-origin:176px 156px;animation:spin 6s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes hit{0%{opacity:1}70%{opacity:.15}100%{opacity:.15}}
+.lg{opacity:0;animation:appear .01s linear forwards}
+.gr{transform-box:fill-box;transform-origin:0 50%;transform:scaleX(0);animation:grow .7s ease-out forwards}
+@keyframes grow{to{transform:scaleX(1)}}
+@keyframes appear{to{opacity:1}}
+.sa0{animation-delay:0.35s}
+.sa1{animation-delay:0.65s}
+.sa2{animation-delay:0.95s}
+.sa3{animation-delay:1.25s}
+.sa4{animation-delay:1.55s}
+.sa5{animation-delay:1.85s}
+.sa6{animation-delay:2.15s}
+</style>
+<path class="lm" stroke-width="1" d="M14 30 V14 H30 M810 14 H826 V30 M14 250 V266 H30 M810 266 H826 V250"/>
+<text class="mu" x="40" y="44" font-size="12">scope</text>
+<text class="mu" x="372" y="44" font-size="12">activity log</text>
+<text class="mu" x="800" y="44" font-size="12" text-anchor="end">awaiting first sample <tspan class="pulse">●</tspan></text>
+<path class="ld" stroke-width="1" d="M340 56 V192"/>
+<g class="ld" stroke-width="1"><circle cx="176" cy="156" r="92" fill="none"/><circle cx="176" cy="156" r="60.720000000000006" fill="none"/><circle cx="176" cy="156" r="30.360000000000003" fill="none"/>
+<path d="M84 156 H268 M176 64 V248"/></g>
+<g class="sw"><path d="M176 156 L176 64 A92 92 0 0 0 136.1 73.1 Z" style="fill:var(--ink)" opacity=".07"/>
+<path class="ln" stroke-width="1" d="M176 156 V64"/></g>
+
+<circle class="ink" cx="176" cy="156" r="2"/>
+<g class="lg sa0"><text class="mu" x="372" y="72" font-size="12">[00:00:01]</text><text class="ink" x="476" y="72" font-size="12">boot</text>
+<path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M512.8 68 H775.6"/>
+<text class="ink" x="800" y="72" font-size="12" text-anchor="end">ok</text></g><g class="lg sa1"><text class="mu" x="372" y="91" font-size="12">[00:00:02]</text><text class="ink" x="476" y="91" font-size="12">commits / yr</text>
+<path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M570.4 87 H782.8"/>
+<text class="ink" x="800" y="91" font-size="12" text-anchor="end">—</text></g><g class="lg sa2"><text class="mu" x="372" y="110" font-size="12">[00:00:03]</text><text class="ink" x="476" y="110" font-size="12">pull requests</text>
+<path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M577.6 106 H782.8"/>
+<text class="ink" x="800" y="110" font-size="12" text-anchor="end">—</text></g><g class="lg sa3"><text class="mu" x="372" y="129" font-size="12">[00:00:04]</text><text class="ink" x="476" y="129" font-size="12">public repos</text>
+<path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M570.4 125 H782.8"/>
+<text class="ink" x="800" y="129" font-size="12" text-anchor="end">—</text></g><g class="lg sa4"><text class="mu" x="372" y="148" font-size="12">[00:00:05]</text><text class="ink" x="476" y="148" font-size="12">stars</text>
+<path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M520 144 H782.8"/>
+<text class="ink" x="800" y="148" font-size="12" text-anchor="end">—</text></g><g class="lg sa5"><text class="mu" x="372" y="167" font-size="12">[00:00:06]</text><g class=""><circle class="ink" cx="466" cy="163" r="2"/></g>
+<text class="ink" x="476" y="167" font-size="12">no signal</text>
+<path class="ld" stroke-width="2" d="M600 163 H750"/>
+<text class="ink" x="800" y="167" font-size="12" text-anchor="end">—</text></g><g class="lg sa6"><text class="mu" x="372" y="186" font-size="12">[00:00:07]</text><text class="ink" x="476" y="186" font-size="12">readout complete<tspan class="blink">_</tspan></text></g>
+</svg>

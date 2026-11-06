@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 62" width="840" height="62" role="img" aria-label="establish contact: email">
+<style>
+svg{--ink:#1f2328;--mu:#8c959f;--ln:#57606a;--dim:#d0d7de}
+@media (prefers-color-scheme:dark){svg{--ink:#ededed;--mu:#6e7681;--ln:#c9d1d9;--dim:#30363d}}
+text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace}
+.ink{fill:var(--ink)}.mu{fill:var(--mu)}
+.ln{stroke:var(--ln);fill:none}.lm{stroke:var(--mu);fill:none}.ld{stroke:var(--dim);fill:none}
+.blink{animation:blink 1.1s steps(1) infinite}
+.pulse{animation:pulse 3.2s ease-in-out infinite}
+@keyframes blink{50%{opacity:0}}
+@keyframes pulse{50%{opacity:.25}}
+
+</style>
+<text class="mu" x="420" y="26" font-size="13" text-anchor="middle">$ <tspan class="ink">./establish-contact</tspan><tspan class="ink blink">_</tspan></text>
+<text class="mu" x="420" y="48" font-size="11" text-anchor="middle">the line is open. tap to transmit.</text>
+</svg>
