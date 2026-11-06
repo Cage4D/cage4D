@@ -281,7 +281,22 @@ const metrics = (d) => [
   ["public repos", d ? d.repos : "—"],
   ["stars", d ? d.stars : "—"],
 ];
-const langsOf = (d) => (d?.langs?.length ? d.langs : []);
+// Optional extra rows from the LANG_EXTRA environment variable ("name:pct,name:pct").
+const EXTRA_LANGS = (process.env.LANG_EXTRA ?? "").split(",").map((s) => s.trim()).filter(Boolean)
+  .map((s) => { const i = s.lastIndexOf(":"); return { name: s.slice(0, i).trim().toLowerCase(), pct: Number(s.slice(i + 1)) }; })
+  .filter((l) => l.name && Number.isFinite(l.pct) && l.pct > 0);
+const langsOf = (d) => {
+  if (!d?.langs?.length) return [];
+  // The fetched languages share whatever the extra rows leave, so the rows add up to 100%.
+  const extra = new Set(EXTRA_LANGS.map((l) => l.name));
+  const rest = d.langs.filter((l) => !extra.has(l.name));
+  const room = 100 - EXTRA_LANGS.reduce((a, l) => a + l.pct, 0);
+  const total = rest.reduce((a, l) => a + l.pct, 0) || 1;
+  const scaled = rest.map((l) => ({ name: l.name, pct: Math.round((l.pct / total) * room * 10) / 10 }));
+  // Put any rounding leftover on the largest row so the total is exactly 100.
+  if (scaled.length) scaled[0].pct = Math.round((scaled[0].pct + room - scaled.reduce((a, l) => a + l.pct, 0)) * 10) / 10;
+  return [...scaled, ...EXTRA_LANGS].sort((a, b) => b.pct - a.pct);
+};
 
 // Language bars in the log: a thin dim track, a brighter fill and an end tick.
 // The fill grows in just after its log line prints.
@@ -316,7 +331,7 @@ function stats(t, d) {
   let blips = "";
   const hitDelay = (deg) => ((deg / 360) * P - P).toFixed(2);
   L.forEach((l, i) => {
-    const deg = 30 + i * 67, rad = ((deg - 90) * Math.PI) / 180, r = 26 + i * 14;
+    const deg = 30 + i * 67, rad = ((deg - 90) * Math.PI) / 180, r = 26 + i * Math.min(14, 62 / Math.max(1, L.length - 1));
     const x = CX + Math.cos(rad) * r, y = CY + Math.sin(rad) * r;
     css += `\n.sh${i}{animation:hit ${P}s linear ${hitDelay(deg)}s infinite}`;
     blips += `<g class="sh${i}"><circle class="ink" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${(1.6 + (l.pct / 100) * 4).toFixed(1)}"/>
@@ -341,7 +356,7 @@ function stats(t, d) {
     return `<g class="${L.length ? "sh" + li : ""}"><circle class="ink" cx="${NX - 10}" cy="${y - 4}" r="2"/></g>
 <text class="ink" x="${NX}" y="${y}" font-size="12">${esc(l.name)}</text>
 ${bar(l.pct, y, at)}
-<text class="ink" x="${VX}" y="${y}" font-size="12" text-anchor="end">${d ? l.pct + "%" : "—"}</text>`;
+<text class="ink" x="${VX}" y="${y}" font-size="12" text-anchor="end">${d ? l.pct.toFixed(1) + "%" : "—"}</text>`;
   }));
   line((y) => `<text class="ink" x="${NX}" y="${y}" font-size="12">readout complete<tspan class="blink">_</tspan></text>`);
 
