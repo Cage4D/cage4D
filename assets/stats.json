@@ -1,28 +1,28 @@
 {
-  "commits": 875,
+  "commits": 876,
   "prs": 0,
   "repos": 39,
   "stars": 0,
   "langs": [
     {
-      "name": "solidity",
-      "pct": 32.9
+      "name": "typescript",
+      "pct": 59.6
     },
     {
       "name": "javascript",
-      "pct": 29.5
-    },
-    {
-      "name": "typescript",
-      "pct": 24.2
-    },
-    {
-      "name": "python",
-      "pct": 4.1
+      "pct": 15.7
     },
     {
       "name": "css",
-      "pct": 4
+      "pct": 9.8
+    },
+    {
+      "name": "html",
+      "pct": 8.1
+    },
+    {
+      "name": "solidity",
+      "pct": 5.2
     }
   ],
   "at": "2026-11-06"
