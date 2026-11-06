@@ -35,7 +35,7 @@ const STACK = [
   ["low-level", "c++"],
 ];
 
-// Projects in the "things that escaped the lab" dropdown, in display order.
+// Projects in the "experiments that escaped the lab" dropdown, in display order.
 // Add a new one by appending an entry, then run the build. A field set to null
 // is printed as TODO and flagged in the build output.
 const PROJECTS = [
@@ -65,7 +65,7 @@ const PROJECTS = [
   },
 ];
 
-const PROJECTS_LABEL = "things that escaped the lab";
+const PROJECTS_LABEL = "experiments that escaped the lab";
 
 // ---- palette ----------------------------------------------------------------
 

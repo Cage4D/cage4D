@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 216 22" width="216" height="22" role="img" aria-label="things that escaped the lab">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 253 22" width="253" height="22" role="img" aria-label="experiments that escaped the lab">
 <style>
 svg{--ink:#1f2328;--mu:#8c959f;--ln:#57606a;--dim:#d0d7de}
 @media (prefers-color-scheme:dark){svg{--ink:#ededed;--mu:#6e7681;--ln:#c9d1d9;--dim:#30363d}}
@@ -11,5 +11,5 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mo
 @keyframes pulse{50%{opacity:.25}}
 
 </style>
-<text class="mu" x="2" y="15" font-size="12">things that escaped the lab <tspan class="ink">→</tspan></text>
+<text class="mu" x="2" y="15" font-size="12">experiments that escaped the lab <tspan class="ink">→</tspan></text>
 </svg>

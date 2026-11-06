@@ -16,7 +16,7 @@
 
 <!-- artifacts:start -->
 <p align="center">
-  <a href="https://github.com/cage4D/cage4D/blob/main/LAB.md"><img src="./assets/lab.svg" alt="things that escaped the lab" height="22"></a>
+  <a href="https://github.com/cage4D/cage4D/blob/main/LAB.md"><img src="./assets/lab.svg" alt="experiments that escaped the lab" height="22"></a>
 </p>
 <!-- artifacts:end -->
 

@@ -10,7 +10,7 @@ the SVGs in `assets/`, `LAB.md`, or the block between the `artifacts` markers in
 | Path | What it is |
 | --- | --- |
 | `README.md` | Five panels plus a link to the lab page. Plain `<img>` tags only. |
-| `LAB.md` | Generated page with the project cards ("things that escaped the lab"). Never hand-edit. |
+| `LAB.md` | Generated page with the project cards ("experiments that escaped the lab"). Never hand-edit. |
 | `assets/*.svg` | Generated panels. Each switches light/dark itself via `prefers-color-scheme`. `lab.svg` is the profile link to the lab page, `lab-header.svg` and `back.svg` sit on that page; `artifact-NN.svg` are the project cards (one per `PROJECTS` entry, regenerated and renumbered on every build). |
 | `assets/stats.json` | Last fetched GitHub numbers. Created by the Action; not committed by hand. |
 | `scripts/build.mjs` | Draws every panel, writes the lab link into the README and generates `LAB.md`. No dependencies. |

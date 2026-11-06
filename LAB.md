@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/lab-header.svg" alt="things that escaped the lab" width="100%">
+  <img src="./assets/lab-header.svg" alt="experiments that escaped the lab" width="100%">
 </p>
 
 <p align="center">
