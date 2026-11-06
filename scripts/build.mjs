@@ -245,7 +245,8 @@ async function fetchStats() {
   const q = `query($l:String!){user(login:$l){
     contributionsCollection{totalCommitContributions totalPullRequestContributions}
     repositories(first:100,ownerAffiliations:OWNER,isFork:false,privacy:PUBLIC){totalCount nodes{stargazerCount
-      languages(first:10,orderBy:{field:SIZE,direction:DESC}){edges{size node{name}}}}}}}`;
+      languages(first:10,orderBy:{field:SIZE,direction:DESC}){edges{size node{name}}}}}
+    recent:repositories(first:6,ownerAffiliations:OWNER,isFork:false,privacy:PUBLIC,orderBy:{field:PUSHED_AT,direction:DESC}){nodes{name pushedAt}}}}`;
   const r = await fetch("https://api.github.com/graphql", {
     method: "POST",
     headers: { Authorization: `bearer ${token}`, "Content-Type": "application/json", "User-Agent": "cage4D-readme" },
@@ -269,6 +270,9 @@ async function fetchStats() {
     repos: u.repositories.totalCount,
     stars,
     langs: top,
+    // The profile repo is skipped: the readout Action pushes to it daily.
+    recent: u.recent.nodes.filter((n) => n.name.toLowerCase() !== USER.toLowerCase()).slice(0, 5)
+      .map((n) => ({ name: n.name.toLowerCase(), pushedAt: n.pushedAt })),
     at: new Date().toISOString().slice(0, 10),
   };
 }
@@ -308,12 +312,27 @@ function bar(pct, y, delay) {
   return out;
 }
 
-// Radar on the left, boot log on the right. Each language row in the
-// log carries a dot that lights up when the sweep passes its contact.
+// Recently pushed repos for the radar. Older stats.json files have none.
+const recentOf = (d) => (d?.recent?.length ? d.recent : []);
+const NOW = Date.now();
+const ageHours = (iso) => Math.max(0, (NOW - Date.parse(iso)) / 3.6e6);
+function ago(iso) {
+  const h = ageHours(iso), days = h / 24;
+  if (h < 1) return "just now";
+  if (h < 24) return `${Math.floor(h)}h ago`;
+  if (days < 30) return `${Math.floor(days)}d ago`;
+  if (days < 365) return `${Math.floor(days / 30)}mo ago`;
+  return `${Math.floor(days / 365)}y ago`;
+}
+
+// Radar on the left, boot log on the right. Each blip is a recently pushed
+// repo: the newer the push, the closer to the centre. Its log line carries a
+// dot that lights up when the sweep passes the blip.
 function stats(t, d) {
   const L = langsOf(d);
+  const RP = recentOf(d);
   const ROW = 19, Y0 = 72;
-  const rowsN = 1 + 4 + Math.max(L.length, 1) + 1;
+  const rowsN = 1 + 4 + Math.max(L.length, 1) + Math.max(RP.length, 1) + 1;
   const R = 92, P = 6, CX = 176;
   const H = Math.max(Y0 + rowsN * ROW + 26, 2 * R + 96);
   const CY = Math.round((Y0 - 14 + H - 26) / 2);
@@ -330,12 +349,22 @@ function stats(t, d) {
   // radar
   let blips = "";
   const hitDelay = (deg) => ((deg / 360) * P - P).toFixed(2);
-  L.forEach((l, i) => {
-    const deg = 30 + i * 67, rad = ((deg - 90) * Math.PI) / 180, r = 26 + i * Math.min(14, 62 / Math.max(1, L.length - 1));
+  // Distance grows with the log of the push age: minutes old sits near the
+  // centre, a year or more sits at the outer edge.
+  const R0 = 16, R1 = R - 12, YEAR_H = 24 * 365;
+  const CW = 6.1, EDGE_L = 24, EDGE_R = 332; // label limits: panel edge and log column
+  RP.forEach((p, i) => {
+    const f = Math.min(1, Math.log1p(ageHours(p.pushedAt)) / Math.log1p(YEAR_H));
+    const deg = 30 + i * 67, rad = ((deg - 90) * Math.PI) / 180, r = R0 + f * (R1 - R0);
     const x = CX + Math.cos(rad) * r, y = CY + Math.sin(rad) * r;
+    // Label on the outward side of the blip, cut short so it stays in the radar's area.
+    const right = Math.cos(rad) >= 0;
+    const lx = right ? x + 7 : x - 7;
+    const room = Math.floor((right ? EDGE_R - lx : lx - EDGE_L) / CW);
+    const label = p.name.length > room ? p.name.slice(0, Math.max(1, room - 1)) + "…" : p.name;
     css += `\n.sh${i}{animation:hit ${P}s linear ${hitDelay(deg)}s infinite}`;
-    blips += `<g class="sh${i}"><circle class="ink" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${(1.6 + (l.pct / 100) * 4).toFixed(1)}"/>
-<text class="mu" x="${(x + 8).toFixed(1)}" y="${(y + 4).toFixed(1)}" font-size="10">${esc(l.name)}</text></g>`;
+    blips += `<g class="sh${i}"><circle class="ink" cx="${x.toFixed(1)}" cy="${y.toFixed(1)}" r="${(3 - f * 1.4).toFixed(1)}"/>
+<text class="mu" x="${lx.toFixed(1)}" y="${(y + 4).toFixed(1)}" font-size="10"${right ? "" : ' text-anchor="end"'}>${esc(label)}</text></g>`;
   });
 
   // log
@@ -351,13 +380,16 @@ function stats(t, d) {
 <text class="ink" x="${VX}" y="${y}" font-size="12" text-anchor="end">${esc(v)}</text>`;
   line(kv("boot", "ok"));
   metrics(d).forEach(([k, v]) => line(kv(k, v)));
-  (L.length ? L : [{ name: "no signal", pct: 0 }]).forEach((l, li) => line((y) => {
+  (L.length ? L : [{ name: "no signal", pct: 0 }]).forEach((l) => line((y) => {
     const at = (0.45 + i * 0.3).toFixed(2);
-    return `<g class="${L.length ? "sh" + li : ""}"><circle class="ink" cx="${NX - 10}" cy="${y - 4}" r="2"/></g>
-<text class="ink" x="${NX}" y="${y}" font-size="12">${esc(l.name)}</text>
+    return `<text class="ink" x="${NX}" y="${y}" font-size="12">${esc(l.name)}</text>
 ${bar(l.pct, y, at)}
 <text class="ink" x="${VX}" y="${y}" font-size="12" text-anchor="end">${d ? l.pct.toFixed(1) + "%" : "—"}</text>`;
   }));
+  // One line per radar blip; its dot flashes with the blip.
+  if (RP.length) RP.forEach((p, pi) => line((y) => `<g class="sh${pi}"><circle class="ink" cx="${NX - 10}" cy="${y - 4}" r="2"/></g>
+${kv(p.name, ago(p.pushedAt))(y)}`));
+  else line(kv("recent pushes", "no signal"));
   line((y) => `<text class="ink" x="${NX}" y="${y}" font-size="12">readout complete<tspan class="blink">_</tspan></text>`);
 
   const body = `${brackets(H)}

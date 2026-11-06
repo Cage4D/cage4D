@@ -25,5 +25,27 @@
       "pct": 5.2
     }
   ],
+  "recent": [
+    {
+      "name": "smart-contract-lottery",
+      "pushedAt": "2026-11-06T10:29:30Z"
+    },
+    {
+      "name": "wave-play",
+      "pushedAt": "2026-11-06T10:17:33Z"
+    },
+    {
+      "name": "transaction-queue",
+      "pushedAt": "2026-11-06T10:10:45Z"
+    },
+    {
+      "name": "foundry-nft",
+      "pushedAt": "2026-11-06T08:42:24Z"
+    },
+    {
+      "name": "generative-music-studio",
+      "pushedAt": "2026-11-02T15:05:08Z"
+    }
+  ],
   "at": "2026-11-06"
 }
