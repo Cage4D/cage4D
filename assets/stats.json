@@ -1,0 +1,29 @@
+{
+  "commits": 869,
+  "prs": 0,
+  "repos": 39,
+  "stars": 0,
+  "langs": [
+    {
+      "name": "solidity",
+      "pct": 32.9
+    },
+    {
+      "name": "javascript",
+      "pct": 29.5
+    },
+    {
+      "name": "typescript",
+      "pct": 24.2
+    },
+    {
+      "name": "python",
+      "pct": 4.1
+    },
+    {
+      "name": "css",
+      "pct": 4
+    }
+  ],
+  "at": "2026-11-06"
+}
