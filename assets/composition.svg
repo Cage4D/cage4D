@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 300" width="840" height="300" role="img" aria-label="stack: typescript · node · nestjs · postgresql · react · next.js · three.js · html · css · solidity · foundry · c++">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 300" width="840" height="300" role="img" aria-label="stack: typescript · node · nestjs · postgresql · python · react · next.js · three.js · html · css · solidity · foundry · c++">
 <style>
 svg{--ink:#1f2328;--mu:#8c959f;--ln:#57606a;--dim:#d0d7de}
 @media (prefers-color-scheme:dark){svg{--ink:#ededed;--mu:#6e7681;--ln:#c9d1d9;--dim:#30363d}}
@@ -9,30 +9,32 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mo
 .pulse{animation:pulse 3.2s ease-in-out infinite}
 @keyframes blink{50%{opacity:0}}
 @keyframes pulse{50%{opacity:.25}}
-@keyframes b0{0%{stroke-dashoffset:10px}60%{stroke-dashoffset:-238.1px}100%{stroke-dashoffset:-238.1px}}
+@keyframes b0{0%{stroke-dashoffset:10px}60%{stroke-dashoffset:-249.1px}100%{stroke-dashoffset:-249.1px}}
 .b0{animation:b0 7.38s linear -8.32s infinite}.b0p{animation:ping 7.38s linear -8.32s infinite}
-@keyframes b1{0%{stroke-dashoffset:10px}60%{stroke-dashoffset:-216.1px}100%{stroke-dashoffset:-216.1px}}
+@keyframes b1{0%{stroke-dashoffset:10px}60%{stroke-dashoffset:-227.1px}100%{stroke-dashoffset:-227.1px}}
 .b1{animation:b1 10.35s linear -0.00s infinite}.b1p{animation:ping 10.35s linear -0.00s infinite}
-@keyframes b2{0%{stroke-dashoffset:10px}60%{stroke-dashoffset:-216.1px}100%{stroke-dashoffset:-216.1px}}
+@keyframes b2{0%{stroke-dashoffset:10px}60%{stroke-dashoffset:-205.1px}100%{stroke-dashoffset:-205.1px}}
 .b2{animation:b2 6.54s linear -8.13s infinite}.b2p{animation:ping 6.54s linear -8.13s infinite}
-@keyframes b3{0%{stroke-dashoffset:10px}60%{stroke-dashoffset:-238.1px}100%{stroke-dashoffset:-238.1px}}
+@keyframes b3{0%{stroke-dashoffset:10px}60%{stroke-dashoffset:-227.1px}100%{stroke-dashoffset:-227.1px}}
 .b3{animation:b3 9.89s linear -2.98s infinite}.b3p{animation:ping 9.89s linear -2.98s infinite}
 @keyframes b4{0%{stroke-dashoffset:10px}60%{stroke-dashoffset:-249.1px}100%{stroke-dashoffset:-249.1px}}
 .b4{animation:b4 8.16s linear -3.39s infinite}.b4p{animation:ping 8.16s linear -3.39s infinite}
-@keyframes b5{0%{stroke-dashoffset:10px}60%{stroke-dashoffset:-227.1px}100%{stroke-dashoffset:-227.1px}}
+@keyframes b5{0%{stroke-dashoffset:10px}60%{stroke-dashoffset:-249.1px}100%{stroke-dashoffset:-249.1px}}
 .b5{animation:b5 7.68s linear -7.86s infinite}.b5p{animation:ping 7.68s linear -7.86s infinite}
-@keyframes b6{0%{stroke-dashoffset:10px}60%{stroke-dashoffset:-205.1px}100%{stroke-dashoffset:-205.1px}}
+@keyframes b6{0%{stroke-dashoffset:10px}60%{stroke-dashoffset:-227.1px}100%{stroke-dashoffset:-227.1px}}
 .b6{animation:b6 10.20s linear -0.04s infinite}.b6p{animation:ping 10.20s linear -0.04s infinite}
-@keyframes b7{0%{stroke-dashoffset:10px}60%{stroke-dashoffset:-227.1px}100%{stroke-dashoffset:-227.1px}}
+@keyframes b7{0%{stroke-dashoffset:10px}60%{stroke-dashoffset:-205.1px}100%{stroke-dashoffset:-205.1px}}
 .b7{animation:b7 6.50s linear -8.53s infinite}.b7p{animation:ping 6.50s linear -8.53s infinite}
-@keyframes b8{0%{stroke-dashoffset:10px}60%{stroke-dashoffset:-249.1px}100%{stroke-dashoffset:-249.1px}}
+@keyframes b8{0%{stroke-dashoffset:10px}60%{stroke-dashoffset:-227.1px}100%{stroke-dashoffset:-227.1px}}
 .b8{animation:b8 10.11s linear -2.27s infinite}.b8p{animation:ping 10.11s linear -2.27s infinite}
-@keyframes b9{0%{stroke-dashoffset:10px}60%{stroke-dashoffset:-220.4px}100%{stroke-dashoffset:-220.4px}}
+@keyframes b9{0%{stroke-dashoffset:10px}60%{stroke-dashoffset:-249.1px}100%{stroke-dashoffset:-249.1px}}
 .b9{animation:b9 7.82s linear -4.16s infinite}.b9p{animation:ping 7.82s linear -4.16s infinite}
 @keyframes b10{0%{stroke-dashoffset:10px}60%{stroke-dashoffset:-220.4px}100%{stroke-dashoffset:-220.4px}}
 .b10{animation:b10 8.01s linear -7.29s infinite}.b10p{animation:ping 8.01s linear -7.29s infinite}
-@keyframes b11{0%{stroke-dashoffset:10px}60%{stroke-dashoffset:-209.4px}100%{stroke-dashoffset:-209.4px}}
+@keyframes b11{0%{stroke-dashoffset:10px}60%{stroke-dashoffset:-220.4px}100%{stroke-dashoffset:-220.4px}}
 .b11{animation:b11 9.99s linear -0.21s infinite}.b11p{animation:ping 9.99s linear -0.21s infinite}
+@keyframes b12{0%{stroke-dashoffset:10px}60%{stroke-dashoffset:-209.4px}100%{stroke-dashoffset:-209.4px}}
+.b12{animation:b12 6.52s linear -8.82s infinite}.b12p{animation:ping 6.52s linear -8.82s infinite}
 .pl{stroke:var(--ink);fill:none}.png{stroke:var(--ink);fill:none;opacity:0;transform-box:fill-box;transform-origin:center}
 @keyframes ping{0%{opacity:0;transform:scale(1)}59%{opacity:0;transform:scale(1)}60%{opacity:.9;transform:scale(1)}85%{opacity:0;transform:scale(4.5)}100%{opacity:0;transform:scale(4.5)}}
 .core{transform-origin:420px 150px;animation:spin 30s linear infinite}
@@ -40,23 +42,24 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mo
 </style>
 <path class="lm" stroke-width="1" d="M14 30 V14 H30 M810 14 H826 V30 M14 270 V286 H30 M810 286 H826 V270"/>
 <text class="mu" x="40" y="266" font-size="12">composition</text>
-<text class="mu" x="800" y="266" font-size="12" text-anchor="end">branches: 12 <tspan class="pulse">●</tspan></text>
-<path class="ld" stroke-width="1" d="M397.7 136.7 L316 88 H224"/><path class="ld" stroke-width="1" d="M224 55 V121"/><path class="ld" stroke-width="1" d="M224 55 H206"/><circle class="ln" stroke-width="1" cx="206" cy="55" r="2"/><path class="ld" stroke-width="1" d="M224 77 H206"/><circle class="ln" stroke-width="1" cx="206" cy="77" r="2"/><path class="ld" stroke-width="1" d="M224 99 H206"/><circle class="ln" stroke-width="1" cx="206" cy="99" r="2"/><path class="ld" stroke-width="1" d="M224 121 H206"/><circle class="ln" stroke-width="1" cx="206" cy="121" r="2"/><path class="ld" stroke-width="1" d="M442.3 136.7 L524 88 H616"/><path class="ld" stroke-width="1" d="M616 44 V132"/><path class="ld" stroke-width="1" d="M616 44 H634"/><circle class="ln" stroke-width="1" cx="634" cy="44" r="2"/><path class="ld" stroke-width="1" d="M616 66 H634"/><circle class="ln" stroke-width="1" cx="634" cy="66" r="2"/><path class="ld" stroke-width="1" d="M616 88 H634"/><circle class="ln" stroke-width="1" cx="634" cy="88" r="2"/><path class="ld" stroke-width="1" d="M616 110 H634"/><circle class="ln" stroke-width="1" cx="634" cy="110" r="2"/><path class="ld" stroke-width="1" d="M616 132 H634"/><circle class="ln" stroke-width="1" cx="634" cy="132" r="2"/><path class="ld" stroke-width="1" d="M398.4 164.5 L316 220 H224"/><path class="ld" stroke-width="1" d="M224 209 V231"/><path class="ld" stroke-width="1" d="M224 209 H206"/><circle class="ln" stroke-width="1" cx="206" cy="209" r="2"/><path class="ld" stroke-width="1" d="M224 231 H206"/><circle class="ln" stroke-width="1" cx="206" cy="231" r="2"/><path class="ld" stroke-width="1" d="M441.6 164.5 L524 220 H616"/><path class="ld" stroke-width="1" d="M616 220 H634"/><circle class="ln" stroke-width="1" cx="634" cy="220" r="2"/>
-<path class="pl b0" stroke-width="1.6" stroke-linecap="round" d="M397.7 136.7 L316 88 H224 V55 H206" stroke-dasharray="10 279" stroke-dashoffset="10"/>
-<circle class="png b0p" cx="206" cy="55" r="2" stroke-width="1"/><path class="pl b1" stroke-width="1.6" stroke-linecap="round" d="M397.7 136.7 L316 88 H224 V77 H206" stroke-dasharray="10 257" stroke-dashoffset="10"/>
-<circle class="png b1p" cx="206" cy="77" r="2" stroke-width="1"/><path class="pl b2" stroke-width="1.6" stroke-linecap="round" d="M397.7 136.7 L316 88 H224 V99 H206" stroke-dasharray="10 257" stroke-dashoffset="10"/>
-<circle class="png b2p" cx="206" cy="99" r="2" stroke-width="1"/><path class="pl b3" stroke-width="1.6" stroke-linecap="round" d="M397.7 136.7 L316 88 H224 V121 H206" stroke-dasharray="10 279" stroke-dashoffset="10"/>
-<circle class="png b3p" cx="206" cy="121" r="2" stroke-width="1"/><path class="pl b4" stroke-width="1.6" stroke-linecap="round" d="M442.3 136.7 L524 88 H616 V44 H634" stroke-dasharray="10 290" stroke-dashoffset="10"/>
-<circle class="png b4p" cx="634" cy="44" r="2" stroke-width="1"/><path class="pl b5" stroke-width="1.6" stroke-linecap="round" d="M442.3 136.7 L524 88 H616 V66 H634" stroke-dasharray="10 268" stroke-dashoffset="10"/>
-<circle class="png b5p" cx="634" cy="66" r="2" stroke-width="1"/><path class="pl b6" stroke-width="1.6" stroke-linecap="round" d="M442.3 136.7 L524 88 H616 V88 H634" stroke-dasharray="10 246" stroke-dashoffset="10"/>
-<circle class="png b6p" cx="634" cy="88" r="2" stroke-width="1"/><path class="pl b7" stroke-width="1.6" stroke-linecap="round" d="M442.3 136.7 L524 88 H616 V110 H634" stroke-dasharray="10 268" stroke-dashoffset="10"/>
-<circle class="png b7p" cx="634" cy="110" r="2" stroke-width="1"/><path class="pl b8" stroke-width="1.6" stroke-linecap="round" d="M442.3 136.7 L524 88 H616 V132 H634" stroke-dasharray="10 290" stroke-dashoffset="10"/>
-<circle class="png b8p" cx="634" cy="132" r="2" stroke-width="1"/><path class="pl b9" stroke-width="1.6" stroke-linecap="round" d="M398.4 164.5 L316 220 H224 V209 H206" stroke-dasharray="10 261" stroke-dashoffset="10"/>
-<circle class="png b9p" cx="206" cy="209" r="2" stroke-width="1"/><path class="pl b10" stroke-width="1.6" stroke-linecap="round" d="M398.4 164.5 L316 220 H224 V231 H206" stroke-dasharray="10 261" stroke-dashoffset="10"/>
-<circle class="png b10p" cx="206" cy="231" r="2" stroke-width="1"/><path class="pl b11" stroke-width="1.6" stroke-linecap="round" d="M441.6 164.5 L524 220 H616 V220 H634" stroke-dasharray="10 250" stroke-dashoffset="10"/>
-<circle class="png b11p" cx="634" cy="220" r="2" stroke-width="1"/>
+<text class="mu" x="800" y="266" font-size="12" text-anchor="end">branches: 13 <tspan class="pulse">●</tspan></text>
+<path class="ld" stroke-width="1" d="M397.7 136.7 L316 88 H224"/><path class="ld" stroke-width="1" d="M224 44 V132"/><path class="ld" stroke-width="1" d="M224 44 H206"/><circle class="ln" stroke-width="1" cx="206" cy="44" r="2"/><path class="ld" stroke-width="1" d="M224 66 H206"/><circle class="ln" stroke-width="1" cx="206" cy="66" r="2"/><path class="ld" stroke-width="1" d="M224 88 H206"/><circle class="ln" stroke-width="1" cx="206" cy="88" r="2"/><path class="ld" stroke-width="1" d="M224 110 H206"/><circle class="ln" stroke-width="1" cx="206" cy="110" r="2"/><path class="ld" stroke-width="1" d="M224 132 H206"/><circle class="ln" stroke-width="1" cx="206" cy="132" r="2"/><path class="ld" stroke-width="1" d="M442.3 136.7 L524 88 H616"/><path class="ld" stroke-width="1" d="M616 44 V132"/><path class="ld" stroke-width="1" d="M616 44 H634"/><circle class="ln" stroke-width="1" cx="634" cy="44" r="2"/><path class="ld" stroke-width="1" d="M616 66 H634"/><circle class="ln" stroke-width="1" cx="634" cy="66" r="2"/><path class="ld" stroke-width="1" d="M616 88 H634"/><circle class="ln" stroke-width="1" cx="634" cy="88" r="2"/><path class="ld" stroke-width="1" d="M616 110 H634"/><circle class="ln" stroke-width="1" cx="634" cy="110" r="2"/><path class="ld" stroke-width="1" d="M616 132 H634"/><circle class="ln" stroke-width="1" cx="634" cy="132" r="2"/><path class="ld" stroke-width="1" d="M398.4 164.5 L316 220 H224"/><path class="ld" stroke-width="1" d="M224 209 V231"/><path class="ld" stroke-width="1" d="M224 209 H206"/><circle class="ln" stroke-width="1" cx="206" cy="209" r="2"/><path class="ld" stroke-width="1" d="M224 231 H206"/><circle class="ln" stroke-width="1" cx="206" cy="231" r="2"/><path class="ld" stroke-width="1" d="M441.6 164.5 L524 220 H616"/><path class="ld" stroke-width="1" d="M616 220 H634"/><circle class="ln" stroke-width="1" cx="634" cy="220" r="2"/>
+<path class="pl b0" stroke-width="1.6" stroke-linecap="round" d="M397.7 136.7 L316 88 H224 V44 H206" stroke-dasharray="10 290" stroke-dashoffset="10"/>
+<circle class="png b0p" cx="206" cy="44" r="2" stroke-width="1"/><path class="pl b1" stroke-width="1.6" stroke-linecap="round" d="M397.7 136.7 L316 88 H224 V66 H206" stroke-dasharray="10 268" stroke-dashoffset="10"/>
+<circle class="png b1p" cx="206" cy="66" r="2" stroke-width="1"/><path class="pl b2" stroke-width="1.6" stroke-linecap="round" d="M397.7 136.7 L316 88 H224 V88 H206" stroke-dasharray="10 246" stroke-dashoffset="10"/>
+<circle class="png b2p" cx="206" cy="88" r="2" stroke-width="1"/><path class="pl b3" stroke-width="1.6" stroke-linecap="round" d="M397.7 136.7 L316 88 H224 V110 H206" stroke-dasharray="10 268" stroke-dashoffset="10"/>
+<circle class="png b3p" cx="206" cy="110" r="2" stroke-width="1"/><path class="pl b4" stroke-width="1.6" stroke-linecap="round" d="M397.7 136.7 L316 88 H224 V132 H206" stroke-dasharray="10 290" stroke-dashoffset="10"/>
+<circle class="png b4p" cx="206" cy="132" r="2" stroke-width="1"/><path class="pl b5" stroke-width="1.6" stroke-linecap="round" d="M442.3 136.7 L524 88 H616 V44 H634" stroke-dasharray="10 290" stroke-dashoffset="10"/>
+<circle class="png b5p" cx="634" cy="44" r="2" stroke-width="1"/><path class="pl b6" stroke-width="1.6" stroke-linecap="round" d="M442.3 136.7 L524 88 H616 V66 H634" stroke-dasharray="10 268" stroke-dashoffset="10"/>
+<circle class="png b6p" cx="634" cy="66" r="2" stroke-width="1"/><path class="pl b7" stroke-width="1.6" stroke-linecap="round" d="M442.3 136.7 L524 88 H616 V88 H634" stroke-dasharray="10 246" stroke-dashoffset="10"/>
+<circle class="png b7p" cx="634" cy="88" r="2" stroke-width="1"/><path class="pl b8" stroke-width="1.6" stroke-linecap="round" d="M442.3 136.7 L524 88 H616 V110 H634" stroke-dasharray="10 268" stroke-dashoffset="10"/>
+<circle class="png b8p" cx="634" cy="110" r="2" stroke-width="1"/><path class="pl b9" stroke-width="1.6" stroke-linecap="round" d="M442.3 136.7 L524 88 H616 V132 H634" stroke-dasharray="10 290" stroke-dashoffset="10"/>
+<circle class="png b9p" cx="634" cy="132" r="2" stroke-width="1"/><path class="pl b10" stroke-width="1.6" stroke-linecap="round" d="M398.4 164.5 L316 220 H224 V209 H206" stroke-dasharray="10 261" stroke-dashoffset="10"/>
+<circle class="png b10p" cx="206" cy="209" r="2" stroke-width="1"/><path class="pl b11" stroke-width="1.6" stroke-linecap="round" d="M398.4 164.5 L316 220 H224 V231 H206" stroke-dasharray="10 261" stroke-dashoffset="10"/>
+<circle class="png b11p" cx="206" cy="231" r="2" stroke-width="1"/><path class="pl b12" stroke-width="1.6" stroke-linecap="round" d="M441.6 164.5 L524 220 H616 V220 H634" stroke-dasharray="10 250" stroke-dashoffset="10"/>
+<circle class="png b12p" cx="634" cy="220" r="2" stroke-width="1"/>
 <g class="core"><circle class="lm" stroke-width="1" cx="420" cy="150" r="32" stroke-dasharray="1 4"/></g>
 <circle class="ln" stroke-width="1" cx="420" cy="150" r="24"/>
 <text class="ink" x="420" y="154" font-size="12" text-anchor="middle">c4D</text>
-<text class="mu" x="270" y="81" font-size="11" text-anchor="middle">core</text><text class="ink" x="196" y="59" font-size="12" text-anchor="end">typescript</text><text class="ink" x="196" y="81" font-size="12" text-anchor="end">node</text><text class="ink" x="196" y="103" font-size="12" text-anchor="end">nestjs</text><text class="ink" x="196" y="125" font-size="12" text-anchor="end">postgresql</text><text class="mu" x="570" y="81" font-size="11" text-anchor="middle">surface</text><text class="ink" x="644" y="48" font-size="12" text-anchor="start">react</text><text class="ink" x="644" y="70" font-size="12" text-anchor="start">next.js</text><text class="ink" x="644" y="92" font-size="12" text-anchor="start">three.js</text><text class="ink" x="644" y="114" font-size="12" text-anchor="start">html</text><text class="ink" x="644" y="136" font-size="12" text-anchor="start">css</text><text class="mu" x="270" y="213" font-size="11" text-anchor="middle">chain</text><text class="ink" x="196" y="213" font-size="12" text-anchor="end">solidity</text><text class="ink" x="196" y="235" font-size="12" text-anchor="end">foundry</text><text class="mu" x="570" y="213" font-size="11" text-anchor="middle">low-level</text><text class="ink" x="644" y="224" font-size="12" text-anchor="start">c++</text>
+<text class="mu" x="270" y="81" font-size="11" text-anchor="middle">core</text><text class="ink" x="196" y="48" font-size="12" text-anchor="end">typescript</text><text class="ink" x="196" y="70" font-size="12" text-anchor="end">node</text><text class="ink" x="196" y="92" font-size="12" text-anchor="end">nestjs</text><text class="ink" x="196" y="114" font-size="12" text-anchor="end">postgresql</text><text class="ink" x="196" y="136" font-size="12" text-anchor="end">python</text><text class="mu" x="570" y="81" font-size="11" text-anchor="middle">surface</text><text class="ink" x="644" y="48" font-size="12" text-anchor="start">react</text><text class="ink" x="644" y="70" font-size="12" text-anchor="start">next.js</text><text class="ink" x="644" y="92" font-size="12" text-anchor="start">three.js</text><text class="ink" x="644" y="114" font-size="12" text-anchor="start">html</text><text class="ink" x="644" y="136" font-size="12" text-anchor="start">css</text><text class="mu" x="270" y="213" font-size="11" text-anchor="middle">chain</text><text class="ink" x="196" y="213" font-size="12" text-anchor="end">solidity</text><text class="ink" x="196" y="235" font-size="12" text-anchor="end">foundry</text><text class="mu" x="570" y="213" font-size="11" text-anchor="middle">low-level</text><text class="ink" x="644" y="224" font-size="12" text-anchor="start">c++</text>
 </svg>

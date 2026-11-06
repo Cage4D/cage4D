@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="./assets/composition.svg" alt="stack: typescript · node · nestjs · postgresql · react · next.js · three.js · html · css · solidity · foundry · c++" width="100%">
+  <img src="./assets/composition.svg" alt="stack: typescript · node · nestjs · postgresql · python · react · next.js · three.js · html · css · solidity · foundry · c++" width="100%">
 </p>
 
 <p align="center">

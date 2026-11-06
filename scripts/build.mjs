@@ -29,7 +29,7 @@ const LINES = [
 ];
 
 const STACK = [
-  ["core", "typescript · node · nestjs · postgresql"],
+  ["core", "typescript · node · nestjs · postgresql · python"],
   ["surface", "react · next.js · three.js · html · css"],
   ["chain", "solidity · foundry"],
   ["low-level", "c++"],
