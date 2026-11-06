@@ -21,5 +21,6 @@
 <!-- artifacts:end -->
 
 <p align="center">
-  <a href="mailto:thespammingbott@gmail.com"><img src="./assets/transmit.svg" alt="establish contact" width="100%"></a>
+  <a href="https://mail.google.com/mail/?view=cm&fs=1&to=thespammingbott@gmail.com"><img src="./assets/transmit.svg" alt="establish contact" width="100%"></a>
+  <br><sub><code>thespammingbott@gmail.com</code></sub>
 </p>
