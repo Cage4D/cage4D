@@ -59,7 +59,7 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mo
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M512.8 68 H775.6"/>
 <text class="ink" x="800" y="72" font-size="12" text-anchor="end">ok</text></g><g class="lg sa1"><text class="mu" x="372" y="91" font-size="12">[00:00:02]</text><text class="ink" x="476" y="91" font-size="12">commits / yr</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M570.4 87 H768.4"/>
-<text class="ink" x="800" y="91" font-size="12" text-anchor="end">879</text></g><g class="lg sa2"><text class="mu" x="372" y="110" font-size="12">[00:00:03]</text><text class="ink" x="476" y="110" font-size="12">pull requests</text>
+<text class="ink" x="800" y="91" font-size="12" text-anchor="end">880</text></g><g class="lg sa2"><text class="mu" x="372" y="110" font-size="12">[00:00:03]</text><text class="ink" x="476" y="110" font-size="12">pull requests</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M577.6 106 H782.8"/>
 <text class="ink" x="800" y="110" font-size="12" text-anchor="end">0</text></g><g class="lg sa3"><text class="mu" x="372" y="129" font-size="12">[00:00:04]</text><text class="ink" x="476" y="129" font-size="12">public repos</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M570.4 125 H775.6"/>
@@ -67,11 +67,11 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mo
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M520 144 H782.8"/>
 <text class="ink" x="800" y="148" font-size="12" text-anchor="end">0</text></g><g class="lg sa5"><text class="mu" x="372" y="167" font-size="12">[00:00:06]</text><g class="sh0"><circle class="ink" cx="466" cy="163" r="2"/></g>
 <text class="ink" x="476" y="167" font-size="12">typescript</text>
-<path class="ld" stroke-width="2" d="M600 163 H750"/><g class="gr" style="animation-delay:1.95s"><path class="ln" stroke-width="2" d="M600 163 H687.0"/><path style="stroke:var(--ink)" stroke-width="1" d="M687.0 159 V167"/></g>
-<text class="ink" x="800" y="167" font-size="12" text-anchor="end">58.0%</text></g><g class="lg sa6"><text class="mu" x="372" y="186" font-size="12">[00:00:07]</text><g class="sh1"><circle class="ink" cx="466" cy="182" r="2"/></g>
+<path class="ld" stroke-width="2" d="M600 163 H750"/><g class="gr" style="animation-delay:1.95s"><path class="ln" stroke-width="2" d="M600 163 H686.9"/><path style="stroke:var(--ink)" stroke-width="1" d="M686.9 159 V167"/></g>
+<text class="ink" x="800" y="167" font-size="12" text-anchor="end">57.9%</text></g><g class="lg sa6"><text class="mu" x="372" y="186" font-size="12">[00:00:07]</text><g class="sh1"><circle class="ink" cx="466" cy="182" r="2"/></g>
 <text class="ink" x="476" y="186" font-size="12">javascript</text>
-<path class="ld" stroke-width="2" d="M600 182 H750"/><g class="gr" style="animation-delay:2.25s"><path class="ln" stroke-width="2" d="M600 182 H623.0"/><path style="stroke:var(--ink)" stroke-width="1" d="M623.0 178 V186"/></g>
-<text class="ink" x="800" y="186" font-size="12" text-anchor="end">15.3%</text></g><g class="lg sa7"><text class="mu" x="372" y="205" font-size="12">[00:00:08]</text><g class="sh2"><circle class="ink" cx="466" cy="201" r="2"/></g>
+<path class="ld" stroke-width="2" d="M600 182 H750"/><g class="gr" style="animation-delay:2.25s"><path class="ln" stroke-width="2" d="M600 182 H623.1"/><path style="stroke:var(--ink)" stroke-width="1" d="M623.1 178 V186"/></g>
+<text class="ink" x="800" y="186" font-size="12" text-anchor="end">15.4%</text></g><g class="lg sa7"><text class="mu" x="372" y="205" font-size="12">[00:00:08]</text><g class="sh2"><circle class="ink" cx="466" cy="201" r="2"/></g>
 <text class="ink" x="476" y="205" font-size="12">css</text>
 <path class="ld" stroke-width="2" d="M600 201 H750"/><g class="gr" style="animation-delay:2.55s"><path class="ln" stroke-width="2" d="M600 201 H614.3"/><path style="stroke:var(--ink)" stroke-width="1" d="M614.3 197 V205"/></g>
 <text class="ink" x="800" y="205" font-size="12" text-anchor="end">9.5%</text></g><g class="lg sa8"><text class="mu" x="372" y="224" font-size="12">[00:00:09]</text><g class="sh3"><circle class="ink" cx="466" cy="220" r="2"/></g>
