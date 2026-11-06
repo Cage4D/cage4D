@@ -49,11 +49,11 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mo
 <path d="M84 236 H268 M176 144 V328"/></g>
 <g class="sw"><path d="M176 236 L176 144 A92 92 0 0 0 136.1 153.1 Z" style="fill:var(--ink)" opacity=".07"/>
 <path class="ln" stroke-width="1" d="M176 236 V144"/></g>
-<g class="sh0"><circle class="ink" cx="189.4" cy="212.7" r="2.8"/>
-<text class="mu" x="196.4" y="216.7" font-size="10">smart-contract-lottery</text></g><g class="sh1"><circle class="ink" cx="203.0" cy="239.3" r="2.8"/>
+<g class="sh0"><circle class="ink" cx="189.5" cy="212.7" r="2.8"/>
+<text class="mu" x="196.5" y="216.7" font-size="10">smart-contract-lottery</text></g><g class="sh1"><circle class="ink" cx="203.0" cy="239.3" r="2.8"/>
 <text class="mu" x="210.0" y="243.3" font-size="10">wave-play</text></g><g class="sh2"><circle class="ink" cx="183.5" cy="262.3" r="2.8"/>
-<text class="mu" x="190.5" y="266.3" font-size="10">transaction-queue</text></g><g class="sh3"><circle class="ink" cx="153.3" cy="254.3" r="2.7"/>
-<text class="mu" x="146.3" y="258.3" font-size="10" text-anchor="end">foundry-nft</text></g><g class="sh4"><circle class="ink" cx="133.5" cy="213.4" r="2.3"/>
+<text class="mu" x="190.5" y="266.3" font-size="10">transaction-queue</text></g><g class="sh3"><circle class="ink" cx="153.3" cy="254.4" r="2.7"/>
+<text class="mu" x="146.3" y="258.4" font-size="10" text-anchor="end">foundry-nft</text></g><g class="sh4"><circle class="ink" cx="133.5" cy="213.4" r="2.3"/>
 <text class="mu" x="126.5" y="217.4" font-size="10" text-anchor="end">generative-musi…</text></g>
 <circle class="ink" cx="176" cy="236" r="2"/>
 <g class="lg sa0"><text class="mu" x="372" y="72" font-size="12">[00:00:01]</text><text class="ink" x="476" y="72" font-size="12">boot</text>
@@ -67,10 +67,10 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mo
 <text class="ink" x="800" y="129" font-size="12" text-anchor="end">39</text></g><g class="lg sa4"><text class="mu" x="372" y="148" font-size="12">[00:00:05]</text><text class="ink" x="476" y="148" font-size="12">stars</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M520 144 H782.8"/>
 <text class="ink" x="800" y="148" font-size="12" text-anchor="end">0</text></g><g class="lg sa5"><text class="mu" x="372" y="167" font-size="12">[00:00:06]</text><text class="ink" x="476" y="167" font-size="12">typescript</text>
-<path class="ld" stroke-width="2" d="M600 163 H750"/><g class="gr" style="animation-delay:1.95s"><path class="ln" stroke-width="2" d="M600 163 H686.9"/><path style="stroke:var(--ink)" stroke-width="1" d="M686.9 159 V167"/></g>
-<text class="ink" x="800" y="167" font-size="12" text-anchor="end">57.9%</text></g><g class="lg sa6"><text class="mu" x="372" y="186" font-size="12">[00:00:07]</text><text class="ink" x="476" y="186" font-size="12">javascript</text>
-<path class="ld" stroke-width="2" d="M600 182 H750"/><g class="gr" style="animation-delay:2.25s"><path class="ln" stroke-width="2" d="M600 182 H623.1"/><path style="stroke:var(--ink)" stroke-width="1" d="M623.1 178 V186"/></g>
-<text class="ink" x="800" y="186" font-size="12" text-anchor="end">15.4%</text></g><g class="lg sa7"><text class="mu" x="372" y="205" font-size="12">[00:00:08]</text><text class="ink" x="476" y="205" font-size="12">css</text>
+<path class="ld" stroke-width="2" d="M600 163 H750"/><g class="gr" style="animation-delay:1.95s"><path class="ln" stroke-width="2" d="M600 163 H686.7"/><path style="stroke:var(--ink)" stroke-width="1" d="M686.7 159 V167"/></g>
+<text class="ink" x="800" y="167" font-size="12" text-anchor="end">57.8%</text></g><g class="lg sa6"><text class="mu" x="372" y="186" font-size="12">[00:00:07]</text><text class="ink" x="476" y="186" font-size="12">javascript</text>
+<path class="ld" stroke-width="2" d="M600 182 H750"/><g class="gr" style="animation-delay:2.25s"><path class="ln" stroke-width="2" d="M600 182 H623.3"/><path style="stroke:var(--ink)" stroke-width="1" d="M623.3 178 V186"/></g>
+<text class="ink" x="800" y="186" font-size="12" text-anchor="end">15.5%</text></g><g class="lg sa7"><text class="mu" x="372" y="205" font-size="12">[00:00:08]</text><text class="ink" x="476" y="205" font-size="12">css</text>
 <path class="ld" stroke-width="2" d="M600 201 H750"/><g class="gr" style="animation-delay:2.55s"><path class="ln" stroke-width="2" d="M600 201 H614.3"/><path style="stroke:var(--ink)" stroke-width="1" d="M614.3 197 V205"/></g>
 <text class="ink" x="800" y="205" font-size="12" text-anchor="end">9.5%</text></g><g class="lg sa8"><text class="mu" x="372" y="224" font-size="12">[00:00:09]</text><text class="ink" x="476" y="224" font-size="12">html</text>
 <path class="ld" stroke-width="2" d="M600 220 H750"/><g class="gr" style="animation-delay:2.85s"><path class="ln" stroke-width="2" d="M600 220 H611.9"/><path style="stroke:var(--ink)" stroke-width="1" d="M611.9 216 V224"/></g>
@@ -89,7 +89,7 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mo
 <text class="ink" x="800" y="319" font-size="12" text-anchor="end">3h ago</text></g><g class="lg sa14"><text class="mu" x="372" y="338" font-size="12">[00:00:15]</text><g class="sh2"><circle class="ink" cx="466" cy="334" r="2"/></g>
 <text class="ink" x="476" y="338" font-size="12">transaction-queue</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M606.4 334 H746.8"/>
-<text class="ink" x="800" y="338" font-size="12" text-anchor="end">3h ago</text></g><g class="lg sa15"><text class="mu" x="372" y="357" font-size="12">[00:00:16]</text><g class="sh3"><circle class="ink" cx="466" cy="353" r="2"/></g>
+<text class="ink" x="800" y="338" font-size="12" text-anchor="end">4h ago</text></g><g class="lg sa15"><text class="mu" x="372" y="357" font-size="12">[00:00:16]</text><g class="sh3"><circle class="ink" cx="466" cy="353" r="2"/></g>
 <text class="ink" x="476" y="357" font-size="12">foundry-nft</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M563.2 353 H746.8"/>
 <text class="ink" x="800" y="357" font-size="12" text-anchor="end">5h ago</text></g><g class="lg sa16"><text class="mu" x="372" y="376" font-size="12">[00:00:17]</text><g class="sh4"><circle class="ink" cx="466" cy="372" r="2"/></g>
