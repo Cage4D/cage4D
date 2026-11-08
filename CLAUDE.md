@@ -11,7 +11,7 @@ the SVGs in `assets/`, `LAB.md`, or the blocks between the `role` and `artifacts
 | --- | --- |
 | `README.md` | Role line at the very top (between the `role` markers), then five panels plus a link to the lab page (between the `artifacts` markers). Plain `<img>` tags only. |
 | `LAB.md` | Generated page with the project cards ("experiments that escaped the lab"). Never hand-edit. |
-| `assets/*.svg` | Generated panels. Each switches light/dark itself via `prefers-color-scheme`. `role.svg` is the role line above the header ("full-stack & smart contract engineer"), `lab.svg` is the profile link to the lab page, `lab-header.svg` and `back.svg` sit on that page; `artifact-NN.svg` are the project cards (one per `PROJECTS` entry, regenerated and renumbered on every build). |
+| `assets/*.svg` | Generated panels. Each switches light/dark itself via `prefers-color-scheme`. `role.svg` is the role line above the header ("Full-stack & Smart contract engineer"), `lab.svg` is the profile link to the lab page, `lab-header.svg` and `back.svg` sit on that page; `artifact-NN.svg` are the project cards (one per `PROJECTS` entry, regenerated and renumbered on every build). |
 | `assets/stats.json` | Last fetched GitHub numbers. Created by the Action; not committed by hand. |
 | `scripts/build.mjs` | Draws every panel, writes the role line and the lab link into the README and generates `LAB.md`. No dependencies. |
 | `.github/workflows/readout.yml` | Runs the build daily, on manual dispatch, and when the build script changes. |

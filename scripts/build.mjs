@@ -68,7 +68,7 @@ const PROJECTS = [
 const PROJECTS_LABEL = "experiments that escaped the lab";
 
 // Role line above the header panel (assets/role.svg, written between the role markers).
-const ROLE = "full-stack & smart contract engineer";
+const ROLE = "Full-stack & Smart contract engineer";
 
 // ---- palette ----------------------------------------------------------------
 
@@ -126,15 +126,12 @@ function header(t) {
 }
 
 // ---- role line -------------------------------------------------------------
-// A quiet label above the header: muted text between two faint rules.
+// A small label above the header: muted, semi-bold, centered.
 
 function role(t) {
-  const CW = 7.3, RULE = 22, GAP = 10, H = 22;
-  const tw = Math.ceil(ROLE.length * CW);
-  const w = tw + 2 * (RULE + GAP) + 4;
-  const mid = w / 2, y = 11;
-  const body = `<path class="ld" stroke-width="1" d="M2 ${y} H${2 + RULE} M${w - 2 - RULE} ${y} H${w - 2}"/>
-<text class="mu" x="${mid}" y="15" font-size="12" text-anchor="middle">${esc(ROLE)}</text>`;
+  const CW = 8.1, H = 22;
+  const w = Math.ceil(ROLE.length * CW) + 4;
+  const body = `<text class="mu" x="${w / 2}" y="16" font-size="13" font-weight="600" text-anchor="middle">${esc(ROLE)}</text>`;
   return svg(H, ROLE, t, body, "", w);
 }
 
