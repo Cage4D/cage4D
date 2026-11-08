@@ -3,6 +3,7 @@
 // With GITHUB_TOKEN set it also fetches live stats; without it, it keeps
 // the last fetched numbers (assets/stats.json) or draws a "no signal" state.
 
+import { createHash } from "node:crypto";
 import { writeFileSync, readFileSync, existsSync, mkdirSync, readdirSync, unlinkSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -136,12 +137,15 @@ function role(t) {
 }
 
 function writeRole(t) {
-  writeFileSync(join(OUT, "role.svg"), role(t));
+  const roleSvg = role(t);
+  writeFileSync(join(OUT, "role.svg"), roleSvg);
+  // Content hash in the URL, so GitHub's CDN and browsers never show a stale copy.
+  const v = createHash("sha1").update(roleSvg).digest("hex").slice(0, 8);
   const file = join(ROOT, "README.md");
   if (!existsSync(file)) return;
   const START = "<!-- role:start -->", END = "<!-- role:end -->";
   const block = `<p align="center">
-  <img src="./assets/role.svg" alt="${esc(ROLE)}" height="22">
+  <img src="./assets/role.svg?v=${v}" alt="${esc(ROLE)}" height="22">
 </p>`;
   let md = readFileSync(file, "utf8");
   const a = md.indexOf(START), b = md.indexOf(END);

@@ -1,6 +1,6 @@
 <!-- role:start -->
 <p align="center">
-  <img src="./assets/role.svg" alt="Full-stack &amp; Smart contract engineer" height="22">
+  <img src="./assets/role.svg?v=2b0c8116" alt="Full-stack &amp; Smart contract engineer" height="22">
 </p>
 <!-- role:end -->
 
