@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 331 22" width="331" height="22" role="img" aria-label="full-stack &amp; smart contract engineer">
+<style>
+svg{--ink:#1f2328;--mu:#8c959f;--ln:#57606a;--dim:#d0d7de}
+@media (prefers-color-scheme:dark){svg{--ink:#ededed;--mu:#6e7681;--ln:#c9d1d9;--dim:#30363d}}
+text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mono',monospace}
+.ink{fill:var(--ink)}.mu{fill:var(--mu)}
+.ln{stroke:var(--ln);fill:none}.lm{stroke:var(--mu);fill:none}.ld{stroke:var(--dim);fill:none}
+.blink{animation:blink 1.1s steps(1) infinite}
+.pulse{animation:pulse 3.2s ease-in-out infinite}
+@keyframes blink{50%{opacity:0}}
+@keyframes pulse{50%{opacity:.25}}
+
+</style>
+<path class="ld" stroke-width="1" d="M2 11 H24 M307 11 H329"/>
+<text class="mu" x="165.5" y="15" font-size="12" text-anchor="middle">full-stack &amp; smart contract engineer</text>
+</svg>

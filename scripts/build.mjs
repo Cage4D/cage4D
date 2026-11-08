@@ -67,6 +67,9 @@ const PROJECTS = [
 
 const PROJECTS_LABEL = "experiments that escaped the lab";
 
+// Role line above the header panel (assets/role.svg, written between the role markers).
+const ROLE = "full-stack & smart contract engineer";
+
 // ---- palette ----------------------------------------------------------------
 
 const THEMES = {
@@ -120,6 +123,35 @@ function header(t) {
 <text class="ink s" x="40" y="204">&gt; tracking<tspan class="blink">_</tspan></text>
 <text class="mu s" x="800" y="204" text-anchor="end">scan 04 / ∞ <tspan class="pulse">●</tspan></text>`;
   return svg(240, "cage4D", t, body, css);
+}
+
+// ---- role line -------------------------------------------------------------
+// A quiet label above the header: muted text between two faint rules.
+
+function role(t) {
+  const CW = 7.3, RULE = 22, GAP = 10, H = 22;
+  const tw = Math.ceil(ROLE.length * CW);
+  const w = tw + 2 * (RULE + GAP) + 4;
+  const mid = w / 2, y = 11;
+  const body = `<path class="ld" stroke-width="1" d="M2 ${y} H${2 + RULE} M${w - 2 - RULE} ${y} H${w - 2}"/>
+<text class="mu" x="${mid}" y="15" font-size="12" text-anchor="middle">${esc(ROLE)}</text>`;
+  return svg(H, ROLE, t, body, "", w);
+}
+
+function writeRole(t) {
+  writeFileSync(join(OUT, "role.svg"), role(t));
+  const file = join(ROOT, "README.md");
+  if (!existsSync(file)) return;
+  const START = "<!-- role:start -->", END = "<!-- role:end -->";
+  const block = `<p align="center">
+  <img src="./assets/role.svg" alt="${esc(ROLE)}" height="22">
+</p>`;
+  let md = readFileSync(file, "utf8");
+  const a = md.indexOf(START), b = md.indexOf(END);
+  // Markers missing: put them at the very top.
+  if (a < 0 || b < a) md = `${START}\n${END}\n\n` + md.replace(/^\s+/, "");
+  const i = md.indexOf(START), j = md.indexOf(END);
+  writeFileSync(file, md.slice(0, i + START.length) + "\n" + block + "\n" + md.slice(j));
 }
 
 // ---- typing line ------------------------------------------------------------
@@ -542,4 +574,5 @@ writeFileSync(join(OUT, "composition.svg"), composition(t));
 writeFileSync(join(OUT, "stats.svg"), stats(t, data));
 writeFileSync(join(OUT, "transmit.svg"), transmit(t));
 writeProjects(t);
+writeRole(t);
 console.log("built", data ? "with stats" : "without stats");

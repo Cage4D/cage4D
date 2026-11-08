@@ -1,3 +1,9 @@
+<!-- role:start -->
+<p align="center">
+  <img src="./assets/role.svg" alt="full-stack &amp; smart contract engineer" height="22">
+</p>
+<!-- role:end -->
+
 <p align="center">
   <img src="./assets/header.svg" alt="cage4D" width="100%">
 </p>
