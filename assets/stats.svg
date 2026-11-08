@@ -60,7 +60,7 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mo
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M512.8 68 H775.6"/>
 <text class="ink" x="800" y="72" font-size="12" text-anchor="end">ok</text></g><g class="lg sa1"><text class="mu" x="372" y="91" font-size="12">[00:00:02]</text><text class="ink" x="476" y="91" font-size="12">commits / yr</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M570.4 87 H768.4"/>
-<text class="ink" x="800" y="91" font-size="12" text-anchor="end">883</text></g><g class="lg sa2"><text class="mu" x="372" y="110" font-size="12">[00:00:03]</text><text class="ink" x="476" y="110" font-size="12">pull requests</text>
+<text class="ink" x="800" y="91" font-size="12" text-anchor="end">884</text></g><g class="lg sa2"><text class="mu" x="372" y="110" font-size="12">[00:00:03]</text><text class="ink" x="476" y="110" font-size="12">pull requests</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M577.6 106 H782.8"/>
 <text class="ink" x="800" y="110" font-size="12" text-anchor="end">0</text></g><g class="lg sa3"><text class="mu" x="372" y="129" font-size="12">[00:00:04]</text><text class="ink" x="476" y="129" font-size="12">public repos</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M570.4 125 H775.6"/>
