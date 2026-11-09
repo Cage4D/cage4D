@@ -43,18 +43,18 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mo
 <path class="lm" stroke-width="1" d="M14 30 V14 H30 M810 14 H826 V30 M14 410 V426 H30 M810 426 H826 V410"/>
 <text class="mu" x="40" y="44" font-size="12">scope</text>
 <text class="mu" x="372" y="44" font-size="12">activity log</text>
-<text class="mu" x="800" y="44" font-size="12" text-anchor="end">sampled 2026-11-08 <tspan class="pulse">●</tspan></text>
+<text class="mu" x="800" y="44" font-size="12" text-anchor="end">sampled 2026-11-09 <tspan class="pulse">●</tspan></text>
 <path class="ld" stroke-width="1" d="M340 56 V401"/>
 <g class="ld" stroke-width="1"><circle cx="176" cy="236" r="92" fill="none"/><circle cx="176" cy="236" r="60.720000000000006" fill="none"/><circle cx="176" cy="236" r="30.360000000000003" fill="none"/>
 <path d="M84 236 H268 M176 144 V328"/></g>
 <g class="sw"><path d="M176 236 L176 144 A92 92 0 0 0 136.1 153.1 Z" style="fill:var(--ink)" opacity=".07"/>
 <path class="ln" stroke-width="1" d="M176 236 V144"/></g>
-<g class="sh0"><circle class="ink" cx="197.7" cy="198.4" r="2.4"/>
-<text class="mu" x="204.7" y="202.4" font-size="10">smart-contract-lott…</text></g><g class="sh1"><circle class="ink" cx="219.1" cy="241.3" r="2.4"/>
-<text class="mu" x="226.1" y="245.3" font-size="10">wave-play</text></g><g class="sh2"><circle class="ink" cx="188.0" cy="277.8" r="2.4"/>
-<text class="mu" x="195.0" y="281.8" font-size="10">transaction-queue</text></g><g class="sh3"><circle class="ink" cx="142.1" cy="263.5" r="2.4"/>
-<text class="mu" x="135.1" y="267.5" font-size="10" text-anchor="end">foundry-nft</text></g><g class="sh4"><circle class="ink" cx="131.1" cy="212.1" r="2.2"/>
-<text class="mu" x="124.1" y="216.1" font-size="10" text-anchor="end">generative-musi…</text></g>
+<g class="sh0"><circle class="ink" cx="194.0" cy="204.8" r="2.6"/>
+<text class="mu" x="201.0" y="208.8" font-size="10">defi-stablecoin</text></g><g class="sh1"><circle class="ink" cx="222.0" cy="241.6" r="2.3"/>
+<text class="mu" x="229.0" y="245.6" font-size="10">smart-contract-…</text></g><g class="sh2"><circle class="ink" cx="188.8" cy="280.6" r="2.3"/>
+<text class="mu" x="195.8" y="284.6" font-size="10">wave-play</text></g><g class="sh3"><circle class="ink" cx="140.0" cy="265.2" r="2.3"/>
+<text class="mu" x="133.0" y="269.2" font-size="10" text-anchor="end">transaction-queue</text></g><g class="sh4"><circle class="ink" cx="134.9" cy="214.2" r="2.3"/>
+<text class="mu" x="127.9" y="218.2" font-size="10" text-anchor="end">foundry-nft</text></g>
 <circle class="ink" cx="176" cy="236" r="2"/>
 <g class="lg sa0"><text class="mu" x="372" y="72" font-size="12">[00:00:01]</text><text class="ink" x="476" y="72" font-size="12">boot</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M512.8 68 H775.6"/>
@@ -64,7 +64,7 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mo
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M577.6 106 H782.8"/>
 <text class="ink" x="800" y="110" font-size="12" text-anchor="end">0</text></g><g class="lg sa3"><text class="mu" x="372" y="129" font-size="12">[00:00:04]</text><text class="ink" x="476" y="129" font-size="12">public repos</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M570.4 125 H775.6"/>
-<text class="ink" x="800" y="129" font-size="12" text-anchor="end">39</text></g><g class="lg sa4"><text class="mu" x="372" y="148" font-size="12">[00:00:05]</text><text class="ink" x="476" y="148" font-size="12">stars</text>
+<text class="ink" x="800" y="129" font-size="12" text-anchor="end">40</text></g><g class="lg sa4"><text class="mu" x="372" y="148" font-size="12">[00:00:05]</text><text class="ink" x="476" y="148" font-size="12">stars</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M520 144 H782.8"/>
 <text class="ink" x="800" y="148" font-size="12" text-anchor="end">0</text></g><g class="lg sa5"><text class="mu" x="372" y="167" font-size="12">[00:00:06]</text><text class="ink" x="476" y="167" font-size="12">typescript</text>
 <path class="ld" stroke-width="2" d="M600 163 H750"/><g class="gr" style="animation-delay:1.95s"><path class="ln" stroke-width="2" d="M600 163 H686.7"/><path style="stroke:var(--ink)" stroke-width="1" d="M686.7 159 V167"/></g>
@@ -81,19 +81,19 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mo
 <text class="ink" x="800" y="262" font-size="12" text-anchor="end">2.7%</text></g><g class="lg sa11"><text class="mu" x="372" y="281" font-size="12">[00:00:12]</text><text class="ink" x="476" y="281" font-size="12">c++</text>
 <path class="ld" stroke-width="2" d="M600 277 H750"/><g class="gr" style="animation-delay:3.75s"><path class="ln" stroke-width="2" d="M600 277 H602.3"/><path style="stroke:var(--ink)" stroke-width="1" d="M602.3 273 V281"/></g>
 <text class="ink" x="800" y="281" font-size="12" text-anchor="end">1.5%</text></g><g class="lg sa12"><text class="mu" x="372" y="300" font-size="12">[00:00:13]</text><g class="sh0"><circle class="ink" cx="466" cy="296" r="2"/></g>
-<text class="ink" x="476" y="300" font-size="12">smart-contract-lottery</text>
-<path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M642.4 296 H746.8"/>
-<text class="ink" x="800" y="300" font-size="12" text-anchor="end">1d ago</text></g><g class="lg sa13"><text class="mu" x="372" y="319" font-size="12">[00:00:14]</text><g class="sh1"><circle class="ink" cx="466" cy="315" r="2"/></g>
-<text class="ink" x="476" y="319" font-size="12">wave-play</text>
-<path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M548.8 315 H746.8"/>
-<text class="ink" x="800" y="319" font-size="12" text-anchor="end">1d ago</text></g><g class="lg sa14"><text class="mu" x="372" y="338" font-size="12">[00:00:15]</text><g class="sh2"><circle class="ink" cx="466" cy="334" r="2"/></g>
-<text class="ink" x="476" y="338" font-size="12">transaction-queue</text>
-<path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M606.4 334 H746.8"/>
-<text class="ink" x="800" y="338" font-size="12" text-anchor="end">2d ago</text></g><g class="lg sa15"><text class="mu" x="372" y="357" font-size="12">[00:00:16]</text><g class="sh3"><circle class="ink" cx="466" cy="353" r="2"/></g>
-<text class="ink" x="476" y="357" font-size="12">foundry-nft</text>
-<path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M563.2 353 H746.8"/>
-<text class="ink" x="800" y="357" font-size="12" text-anchor="end">2d ago</text></g><g class="lg sa16"><text class="mu" x="372" y="376" font-size="12">[00:00:17]</text><g class="sh4"><circle class="ink" cx="466" cy="372" r="2"/></g>
-<text class="ink" x="476" y="376" font-size="12">generative-music-studio</text>
-<path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M649.6 372 H746.8"/>
-<text class="ink" x="800" y="376" font-size="12" text-anchor="end">5d ago</text></g><g class="lg sa17"><text class="mu" x="372" y="395" font-size="12">[00:00:18]</text><text class="ink" x="476" y="395" font-size="12">readout complete<tspan class="blink">_</tspan></text></g>
+<text class="ink" x="476" y="300" font-size="12">defi-stablecoin</text>
+<path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M592 296 H739.6"/>
+<text class="ink" x="800" y="300" font-size="12" text-anchor="end">16h ago</text></g><g class="lg sa13"><text class="mu" x="372" y="319" font-size="12">[00:00:14]</text><g class="sh1"><circle class="ink" cx="466" cy="315" r="2"/></g>
+<text class="ink" x="476" y="319" font-size="12">smart-contract-lottery</text>
+<path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M642.4 315 H746.8"/>
+<text class="ink" x="800" y="319" font-size="12" text-anchor="end">3d ago</text></g><g class="lg sa14"><text class="mu" x="372" y="338" font-size="12">[00:00:15]</text><g class="sh2"><circle class="ink" cx="466" cy="334" r="2"/></g>
+<text class="ink" x="476" y="338" font-size="12">wave-play</text>
+<path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M548.8 334 H746.8"/>
+<text class="ink" x="800" y="338" font-size="12" text-anchor="end">3d ago</text></g><g class="lg sa15"><text class="mu" x="372" y="357" font-size="12">[00:00:16]</text><g class="sh3"><circle class="ink" cx="466" cy="353" r="2"/></g>
+<text class="ink" x="476" y="357" font-size="12">transaction-queue</text>
+<path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M606.4 353 H746.8"/>
+<text class="ink" x="800" y="357" font-size="12" text-anchor="end">3d ago</text></g><g class="lg sa16"><text class="mu" x="372" y="376" font-size="12">[00:00:17]</text><g class="sh4"><circle class="ink" cx="466" cy="372" r="2"/></g>
+<text class="ink" x="476" y="376" font-size="12">foundry-nft</text>
+<path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M563.2 372 H746.8"/>
+<text class="ink" x="800" y="376" font-size="12" text-anchor="end">3d ago</text></g><g class="lg sa17"><text class="mu" x="372" y="395" font-size="12">[00:00:18]</text><text class="ink" x="476" y="395" font-size="12">readout complete<tspan class="blink">_</tspan></text></g>
 </svg>
