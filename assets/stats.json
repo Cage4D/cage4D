@@ -1,38 +1,38 @@
 {
-  "commits": 920,
+  "commits": 909,
   "prs": 0,
   "repos": 40,
   "stars": 0,
   "langs": [
     {
       "name": "typescript",
-      "pct": 60.5
+      "pct": 60.2
     },
     {
       "name": "javascript",
-      "pct": 14.9
+      "pct": 14.8
     },
     {
       "name": "css",
-      "pct": 10.3
+      "pct": 10.2
     },
     {
       "name": "html",
-      "pct": 7.6
+      "pct": 7.5
     },
     {
       "name": "solidity",
-      "pct": 5.4
+      "pct": 5.9
     }
   ],
   "recent": [
     {
-      "name": "defi-stablecoin",
-      "pushedAt": "2026-11-09T23:01:50Z"
+      "name": "url-shortener",
+      "pushedAt": "2026-11-10T20:20:30Z"
     },
     {
-      "name": "url-shortener",
-      "pushedAt": "2026-11-09T17:20:52Z"
+      "name": "defi-stablecoin",
+      "pushedAt": "2026-11-10T14:15:48Z"
     },
     {
       "name": "smart-contract-lottery",
@@ -47,5 +47,5 @@
       "pushedAt": "2026-11-06T10:10:45Z"
     }
   ],
-  "at": "2026-11-10"
+  "at": "2026-11-11"
 }
