@@ -43,18 +43,18 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mo
 <path class="lm" stroke-width="1" d="M14 30 V14 H30 M810 14 H826 V30 M14 410 V426 H30 M810 426 H826 V410"/>
 <text class="mu" x="40" y="44" font-size="12">scope</text>
 <text class="mu" x="372" y="44" font-size="12">activity log</text>
-<text class="mu" x="800" y="44" font-size="12" text-anchor="end">sampled 2026-11-13 <tspan class="pulse">●</tspan></text>
+<text class="mu" x="800" y="44" font-size="12" text-anchor="end">sampled 2026-11-14 <tspan class="pulse">●</tspan></text>
 <path class="ld" stroke-width="1" d="M340 56 V401"/>
 <g class="ld" stroke-width="1"><circle cx="176" cy="236" r="92" fill="none"/><circle cx="176" cy="236" r="60.720000000000006" fill="none"/><circle cx="176" cy="236" r="30.360000000000003" fill="none"/>
 <path d="M84 236 H268 M176 144 V328"/></g>
 <g class="sw"><path d="M176 236 L176 144 A92 92 0 0 0 136.1 153.1 Z" style="fill:var(--ink)" opacity=".07"/>
 <path class="ln" stroke-width="1" d="M176 236 V144"/></g>
-<g class="sh0"><circle class="ink" cx="198.6" cy="196.8" r="2.4"/>
-<text class="mu" x="205.6" y="200.8" font-size="10">url-shortener</text></g><g class="sh1"><circle class="ink" cx="221.6" cy="241.6" r="2.3"/>
-<text class="mu" x="228.6" y="245.6" font-size="10">defi-stablecoin</text></g><g class="sh2"><circle class="ink" cx="190.4" cy="286.2" r="2.2"/>
-<text class="mu" x="197.4" y="290.2" font-size="10">smart-contract-lottery</text></g><g class="sh3"><circle class="ink" cx="135.4" cy="268.8" r="2.2"/>
-<text class="mu" x="128.4" y="272.8" font-size="10" text-anchor="end">wave-play</text></g><g class="sh4"><circle class="ink" cx="129.9" cy="211.5" r="2.2"/>
-<text class="mu" x="122.9" y="215.5" font-size="10" text-anchor="end">transaction-que…</text></g>
+<g class="sh0"><circle class="ink" cx="199.7" cy="194.9" r="2.3"/>
+<text class="mu" x="206.7" y="198.9" font-size="10">url-shortener</text></g><g class="sh1"><circle class="ink" cx="223.6" cy="241.8" r="2.3"/>
+<text class="mu" x="230.6" y="245.8" font-size="10">defi-stablecoin</text></g><g class="sh2"><circle class="ink" cx="190.6" cy="287.0" r="2.2"/>
+<text class="mu" x="197.6" y="291.0" font-size="10">smart-contract-lottery</text></g><g class="sh3"><circle class="ink" cx="134.7" cy="269.4" r="2.2"/>
+<text class="mu" x="127.7" y="273.4" font-size="10" text-anchor="end">wave-play</text></g><g class="sh4"><circle class="ink" cx="129.1" cy="211.1" r="2.2"/>
+<text class="mu" x="122.1" y="215.1" font-size="10" text-anchor="end">transaction-que…</text></g>
 <circle class="ink" cx="176" cy="236" r="2"/>
 <g class="lg sa0"><text class="mu" x="372" y="72" font-size="12">[00:00:01]</text><text class="ink" x="476" y="72" font-size="12">boot</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M512.8 68 H775.6"/>
@@ -83,17 +83,17 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mo
 <text class="ink" x="800" y="281" font-size="12" text-anchor="end">1.5%</text></g><g class="lg sa12"><text class="mu" x="372" y="300" font-size="12">[00:00:13]</text><g class="sh0"><circle class="ink" cx="466" cy="296" r="2"/></g>
 <text class="ink" x="476" y="300" font-size="12">url-shortener</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M577.6 296 H746.8"/>
-<text class="ink" x="800" y="300" font-size="12" text-anchor="end">2d ago</text></g><g class="lg sa13"><text class="mu" x="372" y="319" font-size="12">[00:00:14]</text><g class="sh1"><circle class="ink" cx="466" cy="315" r="2"/></g>
+<text class="ink" x="800" y="300" font-size="12" text-anchor="end">3d ago</text></g><g class="lg sa13"><text class="mu" x="372" y="319" font-size="12">[00:00:14]</text><g class="sh1"><circle class="ink" cx="466" cy="315" r="2"/></g>
 <text class="ink" x="476" y="319" font-size="12">defi-stablecoin</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M592 315 H746.8"/>
-<text class="ink" x="800" y="319" font-size="12" text-anchor="end">2d ago</text></g><g class="lg sa14"><text class="mu" x="372" y="338" font-size="12">[00:00:15]</text><g class="sh2"><circle class="ink" cx="466" cy="334" r="2"/></g>
+<text class="ink" x="800" y="319" font-size="12" text-anchor="end">3d ago</text></g><g class="lg sa14"><text class="mu" x="372" y="338" font-size="12">[00:00:15]</text><g class="sh2"><circle class="ink" cx="466" cy="334" r="2"/></g>
 <text class="ink" x="476" y="338" font-size="12">smart-contract-lottery</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M642.4 334 H746.8"/>
 <text class="ink" x="800" y="338" font-size="12" text-anchor="end">7d ago</text></g><g class="lg sa15"><text class="mu" x="372" y="357" font-size="12">[00:00:16]</text><g class="sh3"><circle class="ink" cx="466" cy="353" r="2"/></g>
 <text class="ink" x="476" y="357" font-size="12">wave-play</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M548.8 353 H746.8"/>
-<text class="ink" x="800" y="357" font-size="12" text-anchor="end">7d ago</text></g><g class="lg sa16"><text class="mu" x="372" y="376" font-size="12">[00:00:17]</text><g class="sh4"><circle class="ink" cx="466" cy="372" r="2"/></g>
+<text class="ink" x="800" y="357" font-size="12" text-anchor="end">8d ago</text></g><g class="lg sa16"><text class="mu" x="372" y="376" font-size="12">[00:00:17]</text><g class="sh4"><circle class="ink" cx="466" cy="372" r="2"/></g>
 <text class="ink" x="476" y="376" font-size="12">transaction-queue</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M606.4 372 H746.8"/>
-<text class="ink" x="800" y="376" font-size="12" text-anchor="end">7d ago</text></g><g class="lg sa17"><text class="mu" x="372" y="395" font-size="12">[00:00:18]</text><text class="ink" x="476" y="395" font-size="12">readout complete<tspan class="blink">_</tspan></text></g>
+<text class="ink" x="800" y="376" font-size="12" text-anchor="end">8d ago</text></g><g class="lg sa17"><text class="mu" x="372" y="395" font-size="12">[00:00:18]</text><text class="ink" x="476" y="395" font-size="12">readout complete<tspan class="blink">_</tspan></text></g>
 </svg>
