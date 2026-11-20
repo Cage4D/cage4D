@@ -1,7 +1,7 @@
 {
-  "commits": 1114,
+  "commits": 1116,
   "prs": 0,
-  "repos": 42,
+  "repos": 43,
   "stars": 0,
   "langs": [
     {
@@ -27,8 +27,12 @@
   ],
   "recent": [
     {
+      "name": "paper-trail",
+      "pushedAt": "2026-11-20T10:46:16Z"
+    },
+    {
       "name": "hongbao-drops",
-      "pushedAt": "2026-11-19T10:21:57Z"
+      "pushedAt": "2026-11-19T21:16:44Z"
     },
     {
       "name": "defi-stablecoin",
@@ -41,11 +45,7 @@
     {
       "name": "url-shortener",
       "pushedAt": "2026-11-10T20:20:30Z"
-    },
-    {
-      "name": "smart-contract-lottery",
-      "pushedAt": "2026-11-06T10:29:30Z"
     }
   ],
-  "at": "2026-11-19"
+  "at": "2026-11-20"
 }
