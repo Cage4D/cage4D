@@ -1,38 +1,38 @@
 {
-  "commits": 1116,
+  "commits": 1168,
   "prs": 0,
   "repos": 43,
   "stars": 0,
   "langs": [
     {
       "name": "typescript",
-      "pct": 68.3
-    },
-    {
-      "name": "css",
-      "pct": 9.7
-    },
-    {
-      "name": "javascript",
-      "pct": 9.6
-    },
-    {
-      "name": "html",
-      "pct": 6.2
+      "pct": 54.4
     },
     {
       "name": "solidity",
-      "pct": 5.1
+      "pct": 27.1
+    },
+    {
+      "name": "css",
+      "pct": 6.6
+    },
+    {
+      "name": "javascript",
+      "pct": 6.5
+    },
+    {
+      "name": "html",
+      "pct": 4.2
     }
   ],
   "recent": [
     {
-      "name": "paper-trail",
-      "pushedAt": "2026-11-20T10:46:16Z"
+      "name": "hongbao-drops",
+      "pushedAt": "2026-11-21T08:16:17Z"
     },
     {
-      "name": "hongbao-drops",
-      "pushedAt": "2026-11-19T21:16:44Z"
+      "name": "paper-trail",
+      "pushedAt": "2026-11-20T23:56:37Z"
     },
     {
       "name": "defi-stablecoin",
@@ -47,5 +47,5 @@
       "pushedAt": "2026-11-10T20:20:30Z"
     }
   ],
-  "at": "2026-11-20"
+  "at": "2026-11-21"
 }
