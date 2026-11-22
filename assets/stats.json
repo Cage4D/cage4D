@@ -1,38 +1,38 @@
 {
-  "commits": 1168,
+  "commits": 1195,
   "prs": 0,
   "repos": 43,
   "stars": 0,
   "langs": [
     {
       "name": "typescript",
-      "pct": 54.4
+      "pct": 55.4
     },
     {
       "name": "solidity",
-      "pct": 27.1
+      "pct": 26.6
     },
     {
       "name": "css",
-      "pct": 6.6
+      "pct": 6.4
     },
     {
       "name": "javascript",
-      "pct": 6.5
+      "pct": 6.4
     },
     {
       "name": "html",
-      "pct": 4.2
+      "pct": 4.1
     }
   ],
   "recent": [
     {
       "name": "hongbao-drops",
-      "pushedAt": "2026-11-21T08:16:17Z"
+      "pushedAt": "2026-11-22T07:55:55Z"
     },
     {
       "name": "paper-trail",
-      "pushedAt": "2026-11-20T23:56:37Z"
+      "pushedAt": "2026-11-21T16:46:48Z"
     },
     {
       "name": "defi-stablecoin",
@@ -47,5 +47,5 @@
       "pushedAt": "2026-11-10T20:20:30Z"
     }
   ],
-  "at": "2026-11-21"
+  "at": "2026-11-22"
 }
