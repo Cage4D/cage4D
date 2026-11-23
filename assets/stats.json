@@ -1,23 +1,23 @@
 {
-  "commits": 1195,
+  "commits": 1191,
   "prs": 0,
-  "repos": 43,
+  "repos": 44,
   "stars": 0,
   "langs": [
     {
       "name": "typescript",
-      "pct": 55.4
+      "pct": 55.5
     },
     {
       "name": "solidity",
-      "pct": 26.6
-    },
-    {
-      "name": "css",
-      "pct": 6.4
+      "pct": 26.4
     },
     {
       "name": "javascript",
+      "pct": 6.4
+    },
+    {
+      "name": "css",
       "pct": 6.4
     },
     {
@@ -26,6 +26,10 @@
     }
   ],
   "recent": [
+    {
+      "name": "avero",
+      "pushedAt": "2026-11-22T17:38:06Z"
+    },
     {
       "name": "hongbao-drops",
       "pushedAt": "2026-11-22T07:55:55Z"
@@ -41,11 +45,7 @@
     {
       "name": "refuel",
       "pushedAt": "2026-11-15T12:43:26Z"
-    },
-    {
-      "name": "url-shortener",
-      "pushedAt": "2026-11-10T20:20:30Z"
     }
   ],
-  "at": "2026-11-22"
+  "at": "2026-11-23"
 }
