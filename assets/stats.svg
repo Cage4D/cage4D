@@ -43,57 +43,57 @@ text{font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,'Liberation Mo
 <path class="lm" stroke-width="1" d="M14 30 V14 H30 M810 14 H826 V30 M14 410 V426 H30 M810 426 H826 V410"/>
 <text class="mu" x="40" y="44" font-size="12">scope</text>
 <text class="mu" x="372" y="44" font-size="12">activity log</text>
-<text class="mu" x="800" y="44" font-size="12" text-anchor="end">sampled 2026-11-23 <tspan class="pulse">●</tspan></text>
+<text class="mu" x="800" y="44" font-size="12" text-anchor="end">sampled 2026-11-24 <tspan class="pulse">●</tspan></text>
 <path class="ld" stroke-width="1" d="M340 56 V401"/>
 <g class="ld" stroke-width="1"><circle cx="176" cy="236" r="92" fill="none"/><circle cx="176" cy="236" r="60.720000000000006" fill="none"/><circle cx="176" cy="236" r="30.360000000000003" fill="none"/>
 <path d="M84 236 H268 M176 144 V328"/></g>
 <g class="sw"><path d="M176 236 L176 144 A92 92 0 0 0 136.1 153.1 Z" style="fill:var(--ink)" opacity=".07"/>
 <path class="ln" stroke-width="1" d="M176 236 V144"/></g>
-<g class="sh0"><circle class="ink" cx="194.5" cy="203.9" r="2.5"/>
-<text class="mu" x="201.5" y="207.9" font-size="10">avero</text></g><g class="sh1"><circle class="ink" cx="215.6" cy="240.9" r="2.5"/>
-<text class="mu" x="222.6" y="244.9" font-size="10">hongbao-drops</text></g><g class="sh2"><circle class="ink" cx="187.8" cy="277.1" r="2.4"/>
-<text class="mu" x="194.8" y="281.1" font-size="10">paper-trail</text></g><g class="sh3"><circle class="ink" cx="135.6" cy="268.7" r="2.2"/>
-<text class="mu" x="128.6" y="272.7" font-size="10" text-anchor="end">defi-stablecoin</text></g><g class="sh4"><circle class="ink" cx="129.1" cy="211.1" r="2.2"/>
-<text class="mu" x="122.1" y="215.1" font-size="10" text-anchor="end">refuel</text></g>
+<g class="sh0"><circle class="ink" cx="192.0" cy="208.2" r="2.6"/>
+<text class="mu" x="199.0" y="212.2" font-size="10">paper-trail</text></g><g class="sh1"><circle class="ink" cx="218.5" cy="241.2" r="2.4"/>
+<text class="mu" x="225.5" y="245.2" font-size="10">avero</text></g><g class="sh2"><circle class="ink" cx="188.2" cy="278.5" r="2.4"/>
+<text class="mu" x="195.2" y="282.5" font-size="10">hongbao-drops</text></g><g class="sh3"><circle class="ink" cx="134.8" cy="269.4" r="2.2"/>
+<text class="mu" x="127.8" y="273.4" font-size="10" text-anchor="end">defi-stablecoin</text></g><g class="sh4"><circle class="ink" cx="128.4" cy="210.7" r="2.2"/>
+<text class="mu" x="121.4" y="214.7" font-size="10" text-anchor="end">refuel</text></g>
 <circle class="ink" cx="176" cy="236" r="2"/>
 <g class="lg sa0"><text class="mu" x="372" y="72" font-size="12">[00:00:01]</text><text class="ink" x="476" y="72" font-size="12">boot</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M512.8 68 H775.6"/>
 <text class="ink" x="800" y="72" font-size="12" text-anchor="end">ok</text></g><g class="lg sa1"><text class="mu" x="372" y="91" font-size="12">[00:00:02]</text><text class="ink" x="476" y="91" font-size="12">commits / yr</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M570.4 87 H761.2"/>
-<text class="ink" x="800" y="91" font-size="12" text-anchor="end">1191</text></g><g class="lg sa2"><text class="mu" x="372" y="110" font-size="12">[00:00:03]</text><text class="ink" x="476" y="110" font-size="12">pull requests</text>
+<text class="ink" x="800" y="91" font-size="12" text-anchor="end">1212</text></g><g class="lg sa2"><text class="mu" x="372" y="110" font-size="12">[00:00:03]</text><text class="ink" x="476" y="110" font-size="12">pull requests</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M577.6 106 H782.8"/>
 <text class="ink" x="800" y="110" font-size="12" text-anchor="end">0</text></g><g class="lg sa3"><text class="mu" x="372" y="129" font-size="12">[00:00:04]</text><text class="ink" x="476" y="129" font-size="12">public repos</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M570.4 125 H775.6"/>
 <text class="ink" x="800" y="129" font-size="12" text-anchor="end">44</text></g><g class="lg sa4"><text class="mu" x="372" y="148" font-size="12">[00:00:05]</text><text class="ink" x="476" y="148" font-size="12">stars</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M520 144 H782.8"/>
 <text class="ink" x="800" y="148" font-size="12" text-anchor="end">0</text></g><g class="lg sa5"><text class="mu" x="372" y="167" font-size="12">[00:00:06]</text><text class="ink" x="476" y="167" font-size="12">typescript</text>
-<path class="ld" stroke-width="2" d="M600 163 H750"/><g class="gr" style="animation-delay:1.95s"><path class="ln" stroke-width="2" d="M600 163 H680.7"/><path style="stroke:var(--ink)" stroke-width="1" d="M680.7 159 V167"/></g>
-<text class="ink" x="800" y="167" font-size="12" text-anchor="end">53.8%</text></g><g class="lg sa6"><text class="mu" x="372" y="186" font-size="12">[00:00:07]</text><text class="ink" x="476" y="186" font-size="12">solidity</text>
-<path class="ld" stroke-width="2" d="M600 182 H750"/><g class="gr" style="animation-delay:2.25s"><path class="ln" stroke-width="2" d="M600 182 H638.4"/><path style="stroke:var(--ink)" stroke-width="1" d="M638.4 178 V186"/></g>
-<text class="ink" x="800" y="186" font-size="12" text-anchor="end">25.6%</text></g><g class="lg sa7"><text class="mu" x="372" y="205" font-size="12">[00:00:08]</text><text class="ink" x="476" y="205" font-size="12">javascript</text>
-<path class="ld" stroke-width="2" d="M600 201 H750"/><g class="gr" style="animation-delay:2.55s"><path class="ln" stroke-width="2" d="M600 201 H609.3"/><path style="stroke:var(--ink)" stroke-width="1" d="M609.3 197 V205"/></g>
-<text class="ink" x="800" y="205" font-size="12" text-anchor="end">6.2%</text></g><g class="lg sa8"><text class="mu" x="372" y="224" font-size="12">[00:00:09]</text><text class="ink" x="476" y="224" font-size="12">css</text>
-<path class="ld" stroke-width="2" d="M600 220 H750"/><g class="gr" style="animation-delay:2.85s"><path class="ln" stroke-width="2" d="M600 220 H609.3"/><path style="stroke:var(--ink)" stroke-width="1" d="M609.3 216 V224"/></g>
-<text class="ink" x="800" y="224" font-size="12" text-anchor="end">6.2%</text></g><g class="lg sa9"><text class="mu" x="372" y="243" font-size="12">[00:00:10]</text><text class="ink" x="476" y="243" font-size="12">html</text>
-<path class="ld" stroke-width="2" d="M600 239 H750"/><g class="gr" style="animation-delay:3.15s"><path class="ln" stroke-width="2" d="M600 239 H606.0"/><path style="stroke:var(--ink)" stroke-width="1" d="M606.0 235 V243"/></g>
-<text class="ink" x="800" y="243" font-size="12" text-anchor="end">4.0%</text></g><g class="lg sa10"><text class="mu" x="372" y="262" font-size="12">[00:00:11]</text><text class="ink" x="476" y="262" font-size="12">python</text>
+<path class="ld" stroke-width="2" d="M600 163 H750"/><g class="gr" style="animation-delay:1.95s"><path class="ln" stroke-width="2" d="M600 163 H682.6"/><path style="stroke:var(--ink)" stroke-width="1" d="M682.6 159 V167"/></g>
+<text class="ink" x="800" y="167" font-size="12" text-anchor="end">55.1%</text></g><g class="lg sa6"><text class="mu" x="372" y="186" font-size="12">[00:00:07]</text><text class="ink" x="476" y="186" font-size="12">solidity</text>
+<path class="ld" stroke-width="2" d="M600 182 H750"/><g class="gr" style="animation-delay:2.25s"><path class="ln" stroke-width="2" d="M600 182 H636.3"/><path style="stroke:var(--ink)" stroke-width="1" d="M636.3 178 V186"/></g>
+<text class="ink" x="800" y="186" font-size="12" text-anchor="end">24.2%</text></g><g class="lg sa7"><text class="mu" x="372" y="205" font-size="12">[00:00:08]</text><text class="ink" x="476" y="205" font-size="12">css</text>
+<path class="ld" stroke-width="2" d="M600 201 H750"/><g class="gr" style="animation-delay:2.55s"><path class="ln" stroke-width="2" d="M600 201 H610.4"/><path style="stroke:var(--ink)" stroke-width="1" d="M610.4 197 V205"/></g>
+<text class="ink" x="800" y="205" font-size="12" text-anchor="end">6.9%</text></g><g class="lg sa8"><text class="mu" x="372" y="224" font-size="12">[00:00:09]</text><text class="ink" x="476" y="224" font-size="12">javascript</text>
+<path class="ld" stroke-width="2" d="M600 220 H750"/><g class="gr" style="animation-delay:2.85s"><path class="ln" stroke-width="2" d="M600 220 H608.7"/><path style="stroke:var(--ink)" stroke-width="1" d="M608.7 216 V224"/></g>
+<text class="ink" x="800" y="224" font-size="12" text-anchor="end">5.8%</text></g><g class="lg sa9"><text class="mu" x="372" y="243" font-size="12">[00:00:10]</text><text class="ink" x="476" y="243" font-size="12">html</text>
+<path class="ld" stroke-width="2" d="M600 239 H750"/><g class="gr" style="animation-delay:3.15s"><path class="ln" stroke-width="2" d="M600 239 H605.7"/><path style="stroke:var(--ink)" stroke-width="1" d="M605.7 235 V243"/></g>
+<text class="ink" x="800" y="243" font-size="12" text-anchor="end">3.8%</text></g><g class="lg sa10"><text class="mu" x="372" y="262" font-size="12">[00:00:11]</text><text class="ink" x="476" y="262" font-size="12">python</text>
 <path class="ld" stroke-width="2" d="M600 258 H750"/><g class="gr" style="animation-delay:3.45s"><path class="ln" stroke-width="2" d="M600 258 H604.0"/><path style="stroke:var(--ink)" stroke-width="1" d="M604.0 254 V262"/></g>
 <text class="ink" x="800" y="262" font-size="12" text-anchor="end">2.7%</text></g><g class="lg sa11"><text class="mu" x="372" y="281" font-size="12">[00:00:12]</text><text class="ink" x="476" y="281" font-size="12">c++</text>
 <path class="ld" stroke-width="2" d="M600 277 H750"/><g class="gr" style="animation-delay:3.75s"><path class="ln" stroke-width="2" d="M600 277 H602.3"/><path style="stroke:var(--ink)" stroke-width="1" d="M602.3 273 V281"/></g>
 <text class="ink" x="800" y="281" font-size="12" text-anchor="end">1.5%</text></g><g class="lg sa12"><text class="mu" x="372" y="300" font-size="12">[00:00:13]</text><g class="sh0"><circle class="ink" cx="466" cy="296" r="2"/></g>
-<text class="ink" x="476" y="300" font-size="12">avero</text>
-<path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M520 296 H739.6"/>
-<text class="ink" x="800" y="300" font-size="12" text-anchor="end">18h ago</text></g><g class="lg sa13"><text class="mu" x="372" y="319" font-size="12">[00:00:14]</text><g class="sh1"><circle class="ink" cx="466" cy="315" r="2"/></g>
-<text class="ink" x="476" y="319" font-size="12">hongbao-drops</text>
-<path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M577.6 315 H746.8"/>
+<text class="ink" x="476" y="300" font-size="12">paper-trail</text>
+<path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M563.2 296 H746.8"/>
+<text class="ink" x="800" y="300" font-size="12" text-anchor="end">8h ago</text></g><g class="lg sa13"><text class="mu" x="372" y="319" font-size="12">[00:00:14]</text><g class="sh1"><circle class="ink" cx="466" cy="315" r="2"/></g>
+<text class="ink" x="476" y="319" font-size="12">avero</text>
+<path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M520 315 H746.8"/>
 <text class="ink" x="800" y="319" font-size="12" text-anchor="end">1d ago</text></g><g class="lg sa14"><text class="mu" x="372" y="338" font-size="12">[00:00:15]</text><g class="sh2"><circle class="ink" cx="466" cy="334" r="2"/></g>
-<text class="ink" x="476" y="338" font-size="12">paper-trail</text>
-<path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M563.2 334 H746.8"/>
-<text class="ink" x="800" y="338" font-size="12" text-anchor="end">1d ago</text></g><g class="lg sa15"><text class="mu" x="372" y="357" font-size="12">[00:00:16]</text><g class="sh3"><circle class="ink" cx="466" cy="353" r="2"/></g>
+<text class="ink" x="476" y="338" font-size="12">hongbao-drops</text>
+<path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M577.6 334 H746.8"/>
+<text class="ink" x="800" y="338" font-size="12" text-anchor="end">2d ago</text></g><g class="lg sa15"><text class="mu" x="372" y="357" font-size="12">[00:00:16]</text><g class="sh3"><circle class="ink" cx="466" cy="353" r="2"/></g>
 <text class="ink" x="476" y="357" font-size="12">defi-stablecoin</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M592 353 H746.8"/>
-<text class="ink" x="800" y="357" font-size="12" text-anchor="end">6d ago</text></g><g class="lg sa16"><text class="mu" x="372" y="376" font-size="12">[00:00:17]</text><g class="sh4"><circle class="ink" cx="466" cy="372" r="2"/></g>
+<text class="ink" x="800" y="357" font-size="12" text-anchor="end">7d ago</text></g><g class="lg sa16"><text class="mu" x="372" y="376" font-size="12">[00:00:17]</text><g class="sh4"><circle class="ink" cx="466" cy="372" r="2"/></g>
 <text class="ink" x="476" y="376" font-size="12">refuel</text>
 <path class="ld" stroke-width="1" stroke-dasharray="1 4" d="M527.2 372 H746.8"/>
-<text class="ink" x="800" y="376" font-size="12" text-anchor="end">7d ago</text></g><g class="lg sa17"><text class="mu" x="372" y="395" font-size="12">[00:00:18]</text><text class="ink" x="476" y="395" font-size="12">readout complete<tspan class="blink">_</tspan></text></g>
+<text class="ink" x="800" y="376" font-size="12" text-anchor="end">9d ago</text></g><g class="lg sa17"><text class="mu" x="372" y="395" font-size="12">[00:00:18]</text><text class="ink" x="476" y="395" font-size="12">readout complete<tspan class="blink">_</tspan></text></g>
 </svg>

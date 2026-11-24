@@ -1,31 +1,35 @@
 {
-  "commits": 1191,
+  "commits": 1212,
   "prs": 0,
   "repos": 44,
   "stars": 0,
   "langs": [
     {
       "name": "typescript",
-      "pct": 55.5
+      "pct": 56.8
     },
     {
       "name": "solidity",
-      "pct": 26.4
-    },
-    {
-      "name": "javascript",
-      "pct": 6.4
+      "pct": 25
     },
     {
       "name": "css",
-      "pct": 6.4
+      "pct": 7.1
+    },
+    {
+      "name": "javascript",
+      "pct": 6
     },
     {
       "name": "html",
-      "pct": 4.1
+      "pct": 3.9
     }
   ],
   "recent": [
+    {
+      "name": "paper-trail",
+      "pushedAt": "2026-11-24T04:53:11Z"
+    },
     {
       "name": "avero",
       "pushedAt": "2026-11-22T17:38:06Z"
@@ -33,10 +37,6 @@
     {
       "name": "hongbao-drops",
       "pushedAt": "2026-11-22T07:55:55Z"
-    },
-    {
-      "name": "paper-trail",
-      "pushedAt": "2026-11-21T16:46:48Z"
     },
     {
       "name": "defi-stablecoin",
@@ -47,5 +47,5 @@
       "pushedAt": "2026-11-15T12:43:26Z"
     }
   ],
-  "at": "2026-11-23"
+  "at": "2026-11-24"
 }
